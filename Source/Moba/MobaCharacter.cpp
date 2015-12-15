@@ -32,4 +32,8 @@ AMobaCharacter::AMobaCharacter()
 	TopDownCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	Abilities[0] = CreateDefaultSubobject<UAbilityComponent>(TEXT("Ability1"));
+	Abilities[1] = CreateDefaultSubobject<UAbilityComponent>(TEXT("Ability2"));
+	Abilities[2] = CreateDefaultSubobject<UAbilityComponent>(TEXT("Ability3"));
+	Abilities[3] = CreateDefaultSubobject<UAbilityComponent>(TEXT("Ability4"));
 }

@@ -1,6 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
+#include "AbilityComponent.h"
 #include "MobaCharacter.generated.h"
 
 UCLASS(Blueprintable)
@@ -24,5 +25,8 @@ public:
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+	//
+	UAbilityComponent *Abilities[4];
 };
 
