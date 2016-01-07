@@ -1,11 +1,11 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
-#include "AbilityComponent.h"
+#include "Unit.h"
 #include "MobaCharacter.generated.h"
 
 UCLASS(Blueprintable)
-class AMobaCharacter : public ACharacter
+class AMobaCharacter : public AUnit
 {
 	GENERATED_BODY()
 
@@ -27,6 +27,11 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
 	//
-	UAbilityComponent *Abilities[4];
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	void ApplyEffect(UClass* EffectClassType);
+
+	//
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	void RemoveEffect(UEffectComponent *Effect);
 };
 

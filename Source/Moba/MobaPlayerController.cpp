@@ -1,12 +1,16 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 #include "Moba.h"
+#include "MobaCharacter.h"
+#include "Unit.h"
+#include "AbilityComponent.h"
 #include "MobaPlayerController.h"
 #include "AI/Navigation/NavigationSystem.h"
 
 AMobaPlayerController::AMobaPlayerController()
 {
 	bShowMouseCursor = true;
+	bEnableClickEvents = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
 }
 
@@ -28,6 +32,7 @@ void AMobaPlayerController::SetupInputComponent()
 
 	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AMobaPlayerController::OnSetDestinationPressed);
 	InputComponent->BindAction("SetDestination", IE_Released, this, &AMobaPlayerController::OnSetDestinationReleased);
+	InputComponent->BindAction("CastAbility1", IE_Pressed, this, &AMobaPlayerController::CastAbility1);
 
 	// support touch devices 
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AMobaPlayerController::MoveToTouchLocation);
@@ -87,4 +92,12 @@ void AMobaPlayerController::OnSetDestinationReleased()
 {
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
+}
+
+void AMobaPlayerController::CastAbility1()
+{
+	AMobaCharacter *Character = (AMobaCharacter*)GetCharacter();
+	FHitResult Result;
+	GetHitResultUnderCursor(ECC_Visibility, true, Result);
+	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
 }
