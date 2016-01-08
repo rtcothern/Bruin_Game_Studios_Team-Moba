@@ -5,6 +5,7 @@
 #include "GameFramework/Character.h"
 #include "AbilityComponent.h"
 #include "EffectComponent.h"
+#include "Interactable.h"
 #include "Unit.generated.h"
 
 UENUM()
@@ -25,7 +26,7 @@ enum class ETeam
 };
 
 UCLASS(Blueprintable, BlueprintType, Abstract)
-class MOBA_API AUnit : public ACharacter
+class MOBA_API AUnit : public AInteractable
 {
 	GENERATED_BODY()
 protected:
