@@ -14,7 +14,7 @@ class MOBA_API AAbilityProjectile : public AActor
 protected:
 	//Object in charge of moving the projectile through the world
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "")
-	UMovementComponent *MovementComponent;
+	UProjectileMovementComponent *MovementComponent;
 
 	//the location where the projectile will terminate
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
