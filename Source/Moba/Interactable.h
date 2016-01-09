@@ -23,6 +23,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
-	
+	//
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	virtual bool IsPlayer();
+
+	//
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	virtual bool IsMinion();
+
+	//
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	virtual bool IsStructure();
 };

@@ -35,7 +35,7 @@ AMobaCharacter::AMobaCharacter()
 
 void AMobaCharacter::ApplyEffect(UClass* EffectClassType)
 {
-	UEffectComponent *Effect = (UEffectComponent*)ConstructObject<UActorComponent>(EffectClassType, this);
+	UEffectComponent *Effect = (UEffectComponent*)NewObject<UActorComponent>(EffectClassType);
 	AppliedEffects.Push(Effect);
 	Effect->RegisterComponent();
 	Effect->OnApply();
@@ -44,4 +44,9 @@ void AMobaCharacter::ApplyEffect(UClass* EffectClassType)
 void AMobaCharacter::RemoveEffect(UEffectComponent *Effect)
 {
 	AppliedEffects.Remove(Effect);
+}
+
+bool AMobaCharacter::IsPlayer()
+{
+	return true;
 }

@@ -33,3 +33,18 @@ void AInteractable::SetupPlayerInputComponent(class UInputComponent* InputCompon
 
 }
 
+bool AInteractable::IsPlayer()
+{
+	return false;
+}
+
+bool AInteractable::IsMinion()
+{
+	return false;
+}
+
+bool AInteractable::IsStructure()
+{
+	return false;
+}
+
