@@ -218,17 +218,22 @@ bool UAbilityComponent::IsTargetValid()
 	}
 
 	/*
-	Checking to see if Player is of a type that is potentially targetable (Player, Creep, Structure).
-	Whether Player, Creep, or Structuer are actual tragetable types is dependent on their associated boolean values.
+	Checking to see if TargetActor is of a type that is potentially targetable (a subclass of Interactable).
+	Whether a particular subclass of Interactable is an actual tragetable type is dependent on its associated boolean values.
 	All other types are automatically disqualified of validity.
 	*/
-	const UClass *TargetClass = TargetActor.Get()->GetClass();
 
-	//TODO: check if target is of Creep or Structure type
-	const bool bPlayer = TargetClass == AMobaCharacter::StaticClass(),
-		bCreep = false,
-		bStructure = false;
-	UE_LOG(Abilities, Warning, TEXT("AbilityComponent.cpp/IsTargetValid(): Currently not checking to see if target is creep or structure."));
+	//if TargetClass is not a subclass of Interactable, it is automatically disqualified
+	const UClass *TargetClass = TargetActor.Get()->GetClass();
+	if (!TargetClass->IsChildOf(AInteractable::StaticClass()))
+	{
+		return bLocationValidTarget;
+	}
+
+	const AInteractable *TargetInteractable = (AInteractable*)TargetActor.Get();
+	const bool bPlayer = TargetInteractable->IsPlayer(),
+		bCreep = TargetInteractable->IsCreep(),
+		bStructure = TargetInteractable->IsStructure();
 
 	if(!(
 		(bPlayer && bPlayerValidTarget) ||
