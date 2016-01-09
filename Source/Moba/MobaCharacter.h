@@ -34,7 +34,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
 	void RemoveEffect(UEffectComponent *Effect);
 
-	bool IsPlayer() override final;
+	bool IsPlayer() const override final;
 	
 };
 

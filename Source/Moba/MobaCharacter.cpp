@@ -46,7 +46,7 @@ void AMobaCharacter::RemoveEffect(UEffectComponent *Effect)
 	AppliedEffects.Remove(Effect);
 }
 
-bool AMobaCharacter::IsPlayer()
+bool AMobaCharacter::IsPlayer() const
 {
 	return true;
 }
