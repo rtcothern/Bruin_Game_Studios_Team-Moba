@@ -25,13 +25,13 @@ public:
 
 	//
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	virtual bool IsPlayer();
+	virtual bool IsPlayer() const;
 
 	//
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	virtual bool IsMinion();
+	virtual bool IsCreep() const;
 
 	//
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	virtual bool IsStructure();
+	virtual bool IsStructure() const;
 };

@@ -33,17 +33,17 @@ void AInteractable::SetupPlayerInputComponent(class UInputComponent* InputCompon
 
 }
 
-bool AInteractable::IsPlayer()
+bool AInteractable::IsPlayer() const
 {
 	return false;
 }
 
-bool AInteractable::IsMinion()
+bool AInteractable::IsCreep() const
 {
 	return false;
 }
 
-bool AInteractable::IsStructure()
+bool AInteractable::IsStructure() const
 {
 	return false;
 }
