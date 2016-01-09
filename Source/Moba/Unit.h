@@ -17,21 +17,11 @@ enum class EKeyToAbilityIndex
 	R = 3
 };
 
-UENUM()
-enum class ETeam
-{
-	TeamA,
-	TeamB,
-	Neutral
-};
-
 UCLASS(Blueprintable, BlueprintType, Abstract)
 class MOBA_API AUnit : public AInteractable
 {
 	GENERATED_BODY()
 protected:
-	ETeam Team;
-
 	//
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UEffectComponent*> AppliedEffects;
@@ -60,12 +50,4 @@ public:
 	//
 	//UFUNCTION()
 	void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation);
-
-	//
-	UFUNCTION(BlueprintCallable, Category = "")
-	ETeam GetTeam() const;
-
-	//
-	UFUNCTION(BlueprintCallable, Category = "")
-	static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
 };

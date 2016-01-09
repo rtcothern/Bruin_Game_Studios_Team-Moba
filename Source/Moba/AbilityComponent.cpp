@@ -246,7 +246,7 @@ bool UAbilityComponent::IsTargetValid()
 
 	//If TargetActor shares a proper relationship with Caster, Target is concluded to be valid.
 	//If TargetActor is valid, audjusting TargetLocation to be exactly that of the TargetActor.
-	ERelationship Relationship = AUnit::GetRelationship(GetCaster(), TargetActor.Get());
+	ERelationship Relationship = AInteractable::GetRelationship(GetCaster(), TargetActor.Get());
 	if (
 		(bAllyValidTarget && Relationship == ERelationship::Ally) ||
 		(bEnemyValidTarget && Relationship == ERelationship::Enemy) ||
