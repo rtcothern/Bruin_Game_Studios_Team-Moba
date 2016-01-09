@@ -11,19 +11,6 @@
 //present to remove circular dependencies
 class Unit;
 
-
-
-/* Enum type which reflects the relationship between two team units. */
-UENUM()
-enum class ERelationship
-{
-	None,
-	Ally,
-	Enemy,
-	Neutral
-};
-
-
 /**
 Ability Components are responsible for sending out Effect Components
 (either via a projectile or direction application)

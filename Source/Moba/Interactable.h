@@ -5,7 +5,26 @@
 #include "GameFramework/Character.h"
 #include "Interactable.generated.h"
 
-UCLASS()
+UENUM()
+enum class ETeam : uint8
+{
+	TeamA,
+	TeamB,
+	Neutral
+};
+
+/* Enum type which reflects the relationship between two team units. */
+UENUM()
+enum class ERelationship
+{
+	None,
+	Ally,
+	Enemy,
+	Neutral
+};
+
+
+UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
@@ -23,6 +42,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
+	ETeam Team;
+
+	UFUNCTION(BlueprintCallable, Category = "")
+		static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
 	
 };
