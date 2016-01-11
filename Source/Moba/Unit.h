@@ -22,18 +22,12 @@ class MOBA_API AUnit : public AInteractable
 {
 	GENERATED_BODY()
 protected:
-	//
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UEffectComponent*> AppliedEffects;
 
 	//
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UAbilityComponent*> Abilities;
 
-	/*
-	//BASIC ATTACK GOES HERE
-	UPROPERTY()
-	*/
 public:
 	// Sets default values for this character's properties
 	AUnit();

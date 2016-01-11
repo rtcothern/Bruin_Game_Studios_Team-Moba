@@ -5,6 +5,11 @@
 #include "GameFramework/Character.h"
 #include "Interactable.generated.h"
 
+//avoiding circular dependencies
+class UAbilityComponent;
+class UEffectComponent;
+
+/* Enum type which represents what team an Interactable is on */
 UENUM()
 enum class ETeam : uint8
 {
@@ -23,11 +28,39 @@ enum class ERelationship
 	Neutral
 };
 
-
 UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
+
+private:
+	//All Interactables have some form of a basic attack ability
+	UAbilityComponent *BasicAttack;
+
+protected:
+	//The team this Interactable belongs to
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
+	ETeam Team;
+
+	//RemainingHealth = MaxHealth upon respawn
+	//This value should not change often nor outside of controlled situations (e.g. leveling up)...
+	//... it is therefore recommended Getter/setters be used to change its value rather than direct manipulation.
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable Stats")
+	int32 MaxHealth;
+
+	//The amount of health this Interactable currently has
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite, Category = "Interactable Stats")
+	int32 RemainingHealth;
+
+	//Team experience gained upon the death of this Interactable
+	//Assumed this will be a constant value for each type of Interactable, so editing is restricted to defautls only
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
+	int32 ExperienceWorth;
+
+	//Kill Streak value gained upon the death of this Interactable
+	//Assumed this will be a constant value for each type of Interactable, so editing is restricted to defautls only
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
+	int32 KillStreakWorth;
 
 public:
 	// Sets default values for this character's properties
@@ -42,21 +75,19 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
-	ETeam Team;
-
-	//
+	//Is this interactable of type Player/MobaCharacter?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	virtual bool IsPlayer() const;
 
-	//
+	//Is this Interactable of type Creep?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	virtual bool IsCreep() const;
 
-	//
+	//Is this Interactable of type Structure?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	virtual bool IsStructure() const;
 
+	//
 	UFUNCTION(BlueprintCallable, Category = "")
 	static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
 };

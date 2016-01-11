@@ -38,7 +38,7 @@ ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, co
 	//preventing future accessing of nullptrs
 	if (FirstActor == nullptr || SecondActor == nullptr)
 	{
-		UE_LOG(Units, Warning, TEXT("Interactable.cpp/GetRelationship() recieced a nullptr. FirstActor(%s), SecondActor(%s)."), FirstActor ? "valid" : "nullptr", SecondActor ? "valid" : "nullptr");
+		UE_LOG(Interactables, Warning, TEXT("Interactable.cpp/GetRelationship() recieced a nullptr. FirstActor(%s), SecondActor(%s)."), FirstActor ? "valid" : "nullptr", SecondActor ? "valid" : "nullptr");
 		return ERelationship::None;
 	}
 
