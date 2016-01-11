@@ -5,6 +5,9 @@
 #include "GameFramework/Character.h"
 #include "Interactable.generated.h"
 
+//avoiding circular dependencies
+class UEffectComponent;
+
 UENUM()
 enum class ETeam : uint8
 {
@@ -28,8 +31,15 @@ UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
+private:
+	//Array of EffectCompoents currently attached to this Interactable
+	//VisibleInstanceOnly because 
+	UPROPERTY(VisibleInstanceOnly)
+	TArray<UEffectComponent*> AppliedEffects;
 
 public:
+	
+
 	// Sets default values for this character's properties
 	AInteractable();
 
@@ -42,8 +52,14 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
-	ETeam Team;
+	//Attaches passed effect to itself and then calls Effect's OnApply() function
+	//Returns false if passed Class is not a subclass of EffectComponent
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	bool ApplyEffect(UClass* EffectClassType);
+
+	//Removes the passed Effect from AppliedEffects
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	void RemoveEffect(UEffectComponent *Effect);
 
 	//
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
@@ -57,6 +73,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	virtual bool IsStructure() const;
 
+	//
 	UFUNCTION(BlueprintCallable, Category = "")
 	static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
+
+	//The team the Interactable is on
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
+	ETeam Team;
 };
