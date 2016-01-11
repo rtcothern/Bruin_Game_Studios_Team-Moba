@@ -2,6 +2,7 @@
 
 #include "Moba.h"
 #include "Interactable.h"
+#include "EffectComponent.h"
 
 
 // Sets default values
@@ -31,6 +32,28 @@ void AInteractable::SetupPlayerInputComponent(class UInputComponent* InputCompon
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
+}
+
+bool AInteractable::ApplyEffect(UClass* EffectClassType)
+{
+	//Checking to make sure the passed class is of a type we expect (namely, it is a subclass EffectComponent)
+	if (!EffectClassType->IsChildOf(UEffectComponent::StaticClass()))
+	{
+		UE_LOG(Interactables, Warning, TEXT("Interactable/ApplyEffect(): Passed Class is not a subclass of EffectComponent"));
+		return false;
+	}
+
+	UEffectComponent *Effect = (UEffectComponent*)NewObject<UActorComponent>(EffectClassType);
+	Effect->RegisterComponent();
+	AppliedEffects.Push(Effect);
+	Effect->OnApply();
+
+	return true;
+}
+
+void AInteractable::RemoveEffect(UEffectComponent *Effect)
+{
+	AppliedEffects.Remove(Effect);
 }
 
 ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor)

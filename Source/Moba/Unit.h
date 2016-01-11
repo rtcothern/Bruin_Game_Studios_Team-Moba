@@ -22,8 +22,6 @@ class MOBA_API AUnit : public AInteractable
 {
 	GENERATED_BODY()
 protected:
-	TArray<UEffectComponent*> AppliedEffects;
-
 	//
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UAbilityComponent*> Abilities;

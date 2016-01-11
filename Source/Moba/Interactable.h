@@ -32,6 +32,11 @@ UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
+private:
+	//Array of EffectCompoents currently attached to this Interactable
+	//VisibleInstanceOnly because 
+	UPROPERTY(VisibleInstanceOnly)
+	TArray<UEffectComponent*> AppliedEffects;
 
 private:
 	//All Interactables have some form of a basic attack ability
@@ -63,6 +68,8 @@ protected:
 	int32 KillStreakWorth;
 
 public:
+	
+
 	// Sets default values for this character's properties
 	AInteractable();
 
@@ -74,6 +81,15 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+	//Attaches passed effect to itself and then calls Effect's OnApply() function
+	//Returns false if passed Class is not a subclass of EffectComponent
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	bool ApplyEffect(UClass* EffectClassType);
+
+	//Removes the passed Effect from AppliedEffects
+	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
+	void RemoveEffect(UEffectComponent *Effect);
 
 	//Is this interactable of type Player/MobaCharacter?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
