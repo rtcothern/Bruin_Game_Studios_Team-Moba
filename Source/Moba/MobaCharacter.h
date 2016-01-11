@@ -26,13 +26,7 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
-	//
-	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
-	void ApplyEffect(UClass* EffectClassType);
-
-	//
-	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
-	void RemoveEffect(UEffectComponent *Effect);
+	
 
 	bool IsPlayer() const override final;
 	

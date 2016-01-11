@@ -33,19 +33,6 @@ AMobaCharacter::AMobaCharacter()
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 }
 
-void AMobaCharacter::ApplyEffect(UClass* EffectClassType)
-{
-	UEffectComponent *Effect = (UEffectComponent*)NewObject<UActorComponent>(EffectClassType);
-	AppliedEffects.Push(Effect);
-	Effect->RegisterComponent();
-	Effect->OnApply();
-}
-
-void AMobaCharacter::RemoveEffect(UEffectComponent *Effect)
-{
-	AppliedEffects.Remove(Effect);
-}
-
 bool AMobaCharacter::IsPlayer() const
 {
 	return true;
