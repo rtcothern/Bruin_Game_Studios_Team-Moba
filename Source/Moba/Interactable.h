@@ -19,13 +19,13 @@ enum class ETeam : uint8
 };
 
 /* Enum type which reflects the relationship between two team units. */
-UENUM()
-enum class ERelationship
+UENUM(BlueprintType)
+enum class ERelationship : uint8
 {
-	None,
-	Ally,
-	Enemy,
-	Neutral
+	None UMETA(DisplayName = "None"),
+	Ally UMETA(DisplayName = "Ally"),
+	Enemy UMETA(DisplayName = "Enemy"),
+	Neutral UMETA(DisplayName = "Neutral")
 };
 
 UCLASS(abstract)
@@ -38,11 +38,12 @@ private:
 	UPROPERTY(VisibleInstanceOnly)
 	TArray<UEffectComponent*> AppliedEffects;
 
-private:
-	//All Interactables have some form of a basic attack ability
-	UAbilityComponent *BasicAttack;
-
 protected:
+	//All Interactables have some form of a basic interact ability ability
+	//In most cases this will be a basic attack, but some cases may vary
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Basic Interaction")
+	UAbilityComponent *BasicInteract;
+
 	//The team this Interactable belongs to
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable_Team")
 	ETeam Team;
@@ -106,4 +107,7 @@ public:
 	//
 	UFUNCTION(BlueprintCallable, Category = "")
 	static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
+
+	UFUNCTION(BlueprintCallable, Category = "")
+	void CastBasic(AActor* TargetActor);
 };

@@ -3,6 +3,7 @@
 #include "Moba.h"
 #include "Interactable.h"
 #include "EffectComponent.h"
+#include "AbilityComponent.h"
 
 
 // Sets default values
@@ -93,6 +94,11 @@ ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, co
 	{
 		return ERelationship::Enemy;
 	}
+}
+
+void AInteractable::CastBasic(AActor* TargetActor) {
+	BasicInteract->SetTarget(TargetActor, FVector2D::ZeroVector);
+	BasicInteract->AttemptCast();
 }
 
 bool AInteractable::IsPlayer() const

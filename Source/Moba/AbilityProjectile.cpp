@@ -36,6 +36,10 @@ void AAbilityProjectile::SetDestination(FVector Dest)
 	Destination = Dest;
 }
 
+void AAbilityProjectile::SetDestination(TWeakObjectPtr<AActor> destActor) {
+	MovementComponent->HomingTargetComponent = destActor->GetRootComponent();
+}
+
 void AAbilityProjectile::SetVelocity(float InVelocity)
 {
 	Velocity = InVelocity;

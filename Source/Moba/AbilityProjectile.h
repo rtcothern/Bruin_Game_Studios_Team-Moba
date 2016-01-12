@@ -41,6 +41,8 @@ public:
 	//
 	void SetDestination(FVector Dest);
 
+	void SetDestination(TWeakObjectPtr<AActor> destActor);
+
 	//Updates Velocity and recalculates Delta
 	UFUNCTION(BlueprintCallable, Category = "")
 	void SetVelocity(float InVelocity);

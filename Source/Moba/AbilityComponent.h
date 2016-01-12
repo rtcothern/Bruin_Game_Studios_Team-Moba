@@ -156,7 +156,7 @@ class MOBA_API UAbilityComponent : public UActorComponent
 
 		//Returns the Unit to which this component belongs to
 		UFUNCTION(BlueprintCallable, Category = "Ability Information")
-		AUnit* GetCaster();
+		AInteractable* GetCaster();
 
 		//Sets all target related class variables
 		//All boolean defaults will assume the calling Ability is not a targeted ability

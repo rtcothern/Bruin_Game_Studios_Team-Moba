@@ -22,4 +22,7 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Structure Stats")
+		float InteractionRange;
 };
