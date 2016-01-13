@@ -2,7 +2,8 @@
 
 #include "Moba.h"
 #include "AbilityProjectile.h"
-#include "MobaCharacter.h"
+//#include "MobaCharacter.h"
+#include "Interactable.h"
 #include "AbilityComponent.h"
 
 const int32
@@ -130,33 +131,34 @@ void UAbilityComponent::CastProjectile()
 		Destination;
 	FRotator Rotation = GetCaster()->GetActorRotation();
 	
+	//radian input!
+	float
+		Sin = FGenericPlatformMath::Sin(Rotation.Yaw / 180 * PI),
+		Cos = FGenericPlatformMath::Cos(Rotation.Yaw / 180 * PI);
+
+	Start.X += ProjectileRelativeSpawnLocation.X * Cos;
+	Start.Y += ProjectileRelativeSpawnLocation.Y * Sin;
+	Start.Z += ProjectileRelativeSpawnLocation.Z;
+
+	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
+
 	if (bTargetedAbility)
 	{
+		Projectile->SetDestination(TargetActor);
 	}
 	else
 	{
-		//radian input!
-		float
-			Sin = FGenericPlatformMath::Sin(Rotation.Yaw / 180 * PI),
-			Cos = FGenericPlatformMath::Cos(Rotation.Yaw / 180 * PI);
-
-		Start.X += ProjectileRelativeSpawnLocation.X * Cos;
-		Start.Y += ProjectileRelativeSpawnLocation.Y * Sin;
-		Start.Z += ProjectileRelativeSpawnLocation.Z;
-
 		Destination.X = Start.X + MaxRange * Cos;
 		Destination.Y = Start.Y + MaxRange * Sin;
 		Destination.Z = Start.Z;
+		Projectile->SetDestination(Destination);
+		Projectile->SetVelocity(1000.f);
 	}
-
-	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
-	Projectile->SetDestination(Destination);
-	Projectile->SetVelocity(1000.f);
 }
 
-AUnit * UAbilityComponent::GetCaster()
+AInteractable * UAbilityComponent::GetCaster()
 {
-	return (AUnit*)GetOwner();
+	return (AInteractable*)GetOwner();
 }
 
 /*
