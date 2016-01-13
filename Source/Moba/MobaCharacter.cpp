@@ -31,5 +31,9 @@ AMobaCharacter::AMobaCharacter()
 	TopDownCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
 	TopDownCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+}
 
+bool AMobaCharacter::IsPlayer() const
+{
+	return true;
 }

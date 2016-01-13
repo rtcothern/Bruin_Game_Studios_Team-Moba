@@ -6,6 +6,8 @@
 #include "EngineMinimal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogMoba, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(Interactables, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(Abilities, Log, All);
 
 
 #endif
