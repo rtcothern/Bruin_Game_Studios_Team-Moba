@@ -17,6 +17,7 @@ UCLASS(Blueprintable, BlueprintType, ClassGroup = "Effects")
 class MOBA_API UEffectComponent : public UActorComponent
 {
 	GENERATED_BODY()
+
 	protected:
 		//
 		UFUNCTION(BlueprintNativeEvent)

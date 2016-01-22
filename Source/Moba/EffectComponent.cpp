@@ -4,6 +4,10 @@
 #include "EffectComponent.h"
 
 
+void UEffectComponent::Persist_Implementation()
+{
+}
+
 // Sets default values for this component's properties
 UEffectComponent::UEffectComponent()
 {
@@ -31,7 +35,17 @@ void UEffectComponent::BeginPlay()
 void UEffectComponent::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction )
 {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
-	// ...
+
+	Duration -= DeltaTime;
+
+	if (Duration >= 0)
+	{
+		Persist();
+	}
+	else
+	{
+		DestroyComponent();
+	}
 }
 
 void UEffectComponent::Initialize_Implementation()
