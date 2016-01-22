@@ -46,15 +46,9 @@ bool AInteractable::ApplyEffect(UClass* EffectClassType)
 
 	UEffectComponent *Effect = (UEffectComponent*)NewObject<UActorComponent>(EffectClassType);
 	Effect->RegisterComponent();
-	AppliedEffects.Push(Effect);
 	Effect->OnApply();
 
 	return true;
-}
-
-void AInteractable::RemoveEffect(UEffectComponent *Effect)
-{
-	AppliedEffects.Remove(Effect);
 }
 
 ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor)

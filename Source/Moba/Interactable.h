@@ -32,11 +32,6 @@ UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
-private:
-	//Array of EffectCompoents currently attached to this Interactable
-	//VisibleInstanceOnly because 
-	UPROPERTY(VisibleInstanceOnly)
-	TArray<UEffectComponent*> AppliedEffects;
 
 protected:
 	//All Interactables have some form of a basic interact ability ability
@@ -87,10 +82,6 @@ public:
 	//Returns false if passed Class is not a subclass of EffectComponent
 	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
 	bool ApplyEffect(UClass* EffectClassType);
-
-	//Removes the passed Effect from AppliedEffects
-	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
-	void RemoveEffect(UEffectComponent *Effect);
 
 	//Is this interactable of type Player/MobaCharacter?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
