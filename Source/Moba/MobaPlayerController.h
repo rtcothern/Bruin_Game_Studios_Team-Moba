@@ -1,6 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/PlayerController.h"
+#include "Interactable.h"
 #include "MobaPlayerController.generated.h"
 
 UCLASS()
@@ -14,6 +15,10 @@ public:
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
+
+	//The team this Player Controller belongs to
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Team")
+		ETeam Team;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
