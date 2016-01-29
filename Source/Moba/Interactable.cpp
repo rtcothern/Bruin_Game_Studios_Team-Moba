@@ -44,9 +44,9 @@ bool AInteractable::ApplyEffect(UClass* EffectClassType)
 		return false;
 	}
 
-	UEffectComponent *Effect = (UEffectComponent*)NewObject<UEffectComponent>(EffectClassType);
-	FinishAndRegisterComponent(Effect);
-	Effect->OnApply();
+	UEffectComponent *Effect = (UEffectComponent*)NewObject<UEffectComponent>(this, EffectClassType);
+	Effect->RegisterComponent();
+	Effect->Apply();
 
 	return true;
 }
