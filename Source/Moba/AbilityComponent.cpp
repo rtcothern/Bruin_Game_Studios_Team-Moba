@@ -68,7 +68,7 @@ bool UAbilityComponent::AreExtraConditionsMet_Implementation()
 	Cooldown related functions
 	----------
 */
-bool UAbilityComponent::IsOnCooldown()
+bool UAbilityComponent::IsOnCooldown() const
 {
 	return RemainingCooldown > 0;
 }
@@ -98,7 +98,7 @@ void UAbilityComponent::AttemptCast()
 		return;
 	}	
 
-	CastAbility();
+		CastAbility();
 
 	if (bHasProjectile)
 	{
@@ -156,7 +156,7 @@ void UAbilityComponent::CastProjectile()
 	}
 }
 
-AInteractable * UAbilityComponent::GetCaster()
+AInteractable * UAbilityComponent::GetCaster() const
 {
 	return (AInteractable*)GetOwner();
 }
@@ -263,7 +263,7 @@ bool UAbilityComponent::IsTargetValid()
 	return bLocationValidTarget;
 }
 
-bool UAbilityComponent::IsTargetInRange()
+bool UAbilityComponent::IsTargetInRange() const
 {
 	UE_LOG(Abilities, Log, TEXT("Still have yet to make RANGE_SELF and RANGE_GLOBAL available in Blueprints."));
 

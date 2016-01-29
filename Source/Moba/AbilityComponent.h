@@ -38,14 +38,14 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		void ResetCooldown();
 
 		//CooldownRemaining > 0?
-		bool IsOnCooldown();
+		bool IsOnCooldown() const;
 
 		//Checks if TargetActor is valid. If not, checks to see if TargetLocation is valid.
 		//If a TargetActor is found to be valid, updates TargetLocation to that of the actor.
 		bool IsTargetValid();
 
 		//Compares distance from (X,Y) position of Caster to (X,Y) position of TargetLocation against MaxRange
-		bool IsTargetInRange();
+		bool IsTargetInRange() const;
 
 		//Blueprint implementable function which allows extra conditions to be tested before allowing Cast() to be called
 		//If not implemented, it is assumed that no additional conditions need to be met,
@@ -156,7 +156,7 @@ class MOBA_API UAbilityComponent : public UActorComponent
 
 		//Returns the Unit to which this component belongs to
 		UFUNCTION(BlueprintCallable, Category = "Ability Information")
-		AInteractable* GetCaster();
+		AInteractable* GetCaster() const;
 
 		//Sets all target related class variables
 		//All boolean defaults will assume the calling Ability is not a targeted ability
