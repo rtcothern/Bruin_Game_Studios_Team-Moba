@@ -10,9 +10,14 @@ class AMobaPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
-	AMobaPlayerController();
+	AMobaPlayerController();	
 
 protected:
+
+	/** Navigate player to the given world location. */
+	UFUNCTION(BlueprintNativeEvent)
+		void SetNewMoveDestination(const FVector DestLocation);
+
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
 
@@ -30,9 +35,6 @@ protected:
 
 	/** Navigate player to the current touch location. */
 	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
-	
-	/** Navigate player to the given world location. */
-	void SetNewMoveDestination(const FVector DestLocation);
 
 	/** Input handlers for SetDestination action. */
 	void OnSetDestinationPressed();

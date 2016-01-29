@@ -67,7 +67,7 @@ void AMobaPlayerController::MoveToTouchLocation(const ETouchIndex::Type FingerIn
 	}
 }
 
-void AMobaPlayerController::SetNewMoveDestination(const FVector DestLocation)
+void AMobaPlayerController::SetNewMoveDestination_Implementation(const FVector DestLocation)
 {
 	APawn* const Pawn = GetPawn();
 	if (Pawn)
