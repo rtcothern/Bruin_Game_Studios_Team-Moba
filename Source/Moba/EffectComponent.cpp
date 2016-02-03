@@ -41,11 +41,12 @@ void UEffectComponent::TickComponent( float DeltaTime, ELevelTick TickType, FAct
 		Duration -= DeltaTime;
 	}
 
-	if (Duration >= 0)
+	if (actualDelta >= 0)
 	{
 		Persist(actualDelta);
 	}
-	else
+
+	if (Duration == 0)
 	{
 		Cleanup();
 		DestroyComponent();
