@@ -11,7 +11,7 @@ AMobaPlayerController::AMobaPlayerController()
 {
 	bShowMouseCursor = true;
 	bEnableClickEvents = true;
-	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	//DefaultMouseCursor = EMouseCursor::Crosshairs;
 }
 
 void AMobaPlayerController::PlayerTick(float DeltaTime)
@@ -46,6 +46,7 @@ void AMobaPlayerController::MoveToMouseCursor()
 	GetHitResultUnderCursor(ECC_Visibility, false, Hit);
 
 	if (Hit.bBlockingHit)
+
 	{
 		// We hit something, move there
 		SetNewMoveDestination(Hit.ImpactPoint);
@@ -66,7 +67,7 @@ void AMobaPlayerController::MoveToTouchLocation(const ETouchIndex::Type FingerIn
 	}
 }
 
-void AMobaPlayerController::SetNewMoveDestination(const FVector DestLocation)
+void AMobaPlayerController::SetNewMoveDestination_Implementation(const FVector DestLocation)
 {
 	APawn* const Pawn = GetPawn();
 	if (Pawn)

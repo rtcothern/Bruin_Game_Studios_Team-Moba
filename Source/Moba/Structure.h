@@ -25,4 +25,6 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Structure Stats")
 		float InteractionRange;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Structure Stats")
+		float Test;
 };

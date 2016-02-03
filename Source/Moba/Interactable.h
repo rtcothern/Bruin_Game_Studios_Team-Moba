@@ -10,12 +10,12 @@ class UAbilityComponent;
 class UEffectComponent;
 
 /* Enum type which represents what team an Interactable is on */
-UENUM()
+UENUM(BlueprintType)
 enum class ETeam : uint8
 {
-	TeamA,
-	TeamB,
-	Neutral
+	TeamA UMETA(DisplayName = "Team 1"),
+	TeamB UMETA(DisplayName = "Team 2"),
+	Neutral UMETA(DisplayName = "Neutral")
 };
 
 /* Enum type which reflects the relationship between two team units. */
@@ -62,6 +62,9 @@ protected:
 	//Assumed this will be a constant value for each type of Interactable, so editing is restricted to defautls only
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 KillStreakWorth;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
+		int32 MoreTest;
 
 public:
 	
