@@ -23,9 +23,8 @@ class MOBA_API AUnit : public AInteractable
 	GENERATED_BODY()
 protected:
 	//
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite)
 	TArray<UAbilityComponent*> Abilities;
-
 public:
 	// Sets default values for this character's properties
 	AUnit();
