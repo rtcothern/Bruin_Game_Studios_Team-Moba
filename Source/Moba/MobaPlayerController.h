@@ -4,6 +4,8 @@
 #include "Interactable.h"
 #include "MobaPlayerController.generated.h"
 
+class AMobaAIController;
+
 UCLASS()
 class AMobaPlayerController : public APlayerController
 {
@@ -13,10 +15,13 @@ public:
 	AMobaPlayerController();	
 
 protected:
+	/**/
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite)
+	AMobaAIController *AIController;
 
 	/** Navigate player to the given world location. */
 	UFUNCTION(BlueprintNativeEvent)
-		void SetNewMoveDestination(const FVector DestLocation);
+	void SetNewMoveDestination(const FVector DestLocation);
 
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;

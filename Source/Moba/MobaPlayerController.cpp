@@ -5,6 +5,7 @@
 #include "Unit.h"
 #include "AbilityComponent.h"
 #include "MobaPlayerController.h"
+#include "MobaAIController.h"
 #include "AI/Navigation/NavigationSystem.h"
 
 AMobaPlayerController::AMobaPlayerController()
@@ -97,7 +98,7 @@ void AMobaPlayerController::OnSetDestinationReleased()
 
 void AMobaPlayerController::CastAbility1()
 {
-	AMobaCharacter *Character = (AMobaCharacter*)GetCharacter();
+	AMobaCharacter *Character = (AMobaCharacter*)(AIController->GetCharacter());
 	FHitResult Result;
 	GetHitResultUnderCursor(ECC_Visibility, true, Result);
 	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
