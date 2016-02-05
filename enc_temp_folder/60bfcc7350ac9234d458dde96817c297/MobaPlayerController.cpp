@@ -96,14 +96,10 @@ void AMobaPlayerController::OnSetDestinationReleased()
 	bMoveToMouseCursor = false;
 }
 
-void AMobaPlayerController::CastAbility1_Implementation()
+void AMobaPlayerController::CastAbility1()
 {
 	AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
 	FHitResult Result;
 	GetHitResultUnderCursor(ECC_Visibility, true, Result);
 	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
-}
-
-bool AMobaPlayerController::CastAbility1_Validate() {
-	return true;
 }

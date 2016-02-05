@@ -32,9 +32,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		AMobaAIController *PlayerAIController;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		class AMobaCharacter *PCharacter;
-
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
 	virtual void SetupInputComponent() override;
@@ -51,8 +48,7 @@ protected:
 	void OnSetDestinationReleased();
 
 	/** Begins cast of player's first ability */
-	UFUNCTION(Server, Reliable, WithValidation, BlueprintCallable, Category = "MobaPlayerController|Abilities")
-		void CastAbility1();
+	void CastAbility1();
 };
 
 
