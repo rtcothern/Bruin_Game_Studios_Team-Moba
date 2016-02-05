@@ -56,3 +56,8 @@ void AAbilityProjectile::SetVelocity(float InVelocity)
 	Delta.Y /= Time;
 	Delta.Z = 0;
 }
+
+void AAbilityProjectile::SetSource(AInteractable * s)
+{
+	Source = s;
+}

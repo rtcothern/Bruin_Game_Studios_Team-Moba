@@ -141,6 +141,7 @@ void UAbilityComponent::CastProjectile()
 	Start.Z += ProjectileRelativeSpawnLocation.Z;
 
 	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
+	Projectile->SetSource(GetCaster());
 
 	if (bTargetedAbility)
 	{
@@ -148,11 +149,10 @@ void UAbilityComponent::CastProjectile()
 	}
 	else
 	{
-		Destination.X = Start.X + MaxRange * Cos;
+		Destination.X = Start.X - MaxRange * Cos;
 		Destination.Y = Start.Y + MaxRange * Sin;
 		Destination.Z = Start.Z;
 		Projectile->SetDestination(Destination);
-		Projectile->SetVelocity(1000.f);
 	}
 }
 

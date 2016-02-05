@@ -86,6 +86,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
 	bool ApplyEffect(UClass* EffectClassType);
 
+	//
+	virtual float TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser);
+
 	//Is this interactable of type Player/MobaCharacter?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	virtual bool IsPlayer() const;

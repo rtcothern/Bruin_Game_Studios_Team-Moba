@@ -51,6 +51,18 @@ bool AInteractable::ApplyEffect(UClass* EffectClassType)
 	return true;
 }
 
+float AInteractable::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
+{
+	RemainingHealth -= DamageAmount;
+
+	if (RemainingHealth <= 0)
+	{
+
+	}
+
+	return RemainingHealth;
+}
+
 ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor)
 {
 	//preventing future accessing of nullptrs
