@@ -98,7 +98,7 @@ void AMobaPlayerController::OnSetDestinationReleased()
 
 void AMobaPlayerController::CastAbility1()
 {
-	AMobaCharacter *Character = (AMobaCharacter*)(AIController->GetCharacter());
+	AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
 	FHitResult Result;
 	GetHitResultUnderCursor(ECC_Visibility, true, Result);
 	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));

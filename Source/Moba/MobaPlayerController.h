@@ -15,9 +15,7 @@ public:
 	AMobaPlayerController();	
 
 protected:
-	/**/
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite)
-	AMobaAIController *AIController;
+	
 
 	/** Navigate player to the given world location. */
 	UFUNCTION(BlueprintNativeEvent)
@@ -27,8 +25,12 @@ protected:
 	uint32 bMoveToMouseCursor : 1;
 
 	//The team this Player Controller belongs to
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Team")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ETeam Team;
+
+	/**/
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		AMobaAIController *PlayerAIController;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
