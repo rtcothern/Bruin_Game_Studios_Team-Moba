@@ -474,593 +474,600 @@
 "../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 474
 "../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 475
 "../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Intermediate/CachedAssetRegistry.bin" 476
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PAIController.uasset" 477
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PController_InGame.uasset" 478
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/TopDownExampleMap.umap" 479
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/MobaGameMode_Auto1.uasset" 480
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/MobaGameMode_Auto2.uasset" 481
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent_Auto2.uasset" 482
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent_Auto4.uasset" 483
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/DashAbilityComponent_Auto2.uasset" 484
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/EffectComponents/DashEffectComponent_Auto1.uasset" 485
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controller_InGame_Auto1.uasset" 486
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controller_OutGame_Auto1.uasset" 487
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba_Auto1.uasset" 488
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba_Auto2.uasset" 489
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameMode_InGame_Auto1.uasset" 490
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameMode_InGame_Auto2.uasset" 491
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/OverheadPawn_Auto1.uasset" 492
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PAIController_Auto2.uasset" 493
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_InGame_Auto1.uasset" 494
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame_Auto1.uasset" 495
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame_Auto3.uasset" 496
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/TopDownCharacter_Auto2.uasset" 497
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto1.uasset" 498
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto2.uasset" 499
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto3.uasset" 500
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto4.uasset" 501
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/TPCharacterController_Auto2.uasset" 502
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/JoinLobbyWidget_Auto2.uasset" 503
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/Menu_Auto1.uasset" 504
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/TitleMenu_Auto2.uasset" 505
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap" 506
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Temp/Untitled_4_Auto1.umap" 507
-"C:/Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Cooked/WindowsNoEditor/Moba/CookedIniVersion.txt" 508
-"../../../Engine/Config/HTML5/HTML5Engine.ini" 509
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 510
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba.uasset" 511
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 512
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 513
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 514
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 515
-"../../../Engine/Content/EditorMaterials/PhAT_JointLimitMaterial.uasset" 516
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 517
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 518
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 519
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 520
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 521
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 522
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 523
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 524
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 525
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 526
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 527
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 528
-"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 529
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset" 530
-"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 531
-"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 532
-"../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset" 533
-"../../../Engine/Content/EngineMeshes/Cube.uasset" 534
-"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 535
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 536
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 537
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 538
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 539
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 540
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 541
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 542
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 543
-"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 544
-"../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset" 545
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset" 546
-"../../../Engine/Content/EditorMeshes/EditorCube.uasset" 547
-"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 548
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 549
-"../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset" 550
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 551
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 552
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 553
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 554
-"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset" 555
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 556
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 557
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 558
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 559
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 560
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 561
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 562
-"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset" 563
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 564
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 565
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 566
-"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 567
-"../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset" 568
-"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset" 569
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 570
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 571
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 572
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 573
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 574
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 575
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 576
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 577
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 578
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 579
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 580
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 581
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/Menu.uasset" 582
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/JoinLobbyWidget.uasset" 583
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/SessionWidget.uasset" 584
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame.uasset" 585
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/TitleMenu.uasset" 586
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/Tower.uasset" 587
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent.uasset" 588
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityProjectiles/BasicAttackProjectile.uasset" 589
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 590
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_MacroVariation.uasset" 591
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 592
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 593
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 594
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Basic_Wall.uasset" 595
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 596
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 597
-"../../../Engine/Content/BasicShapes/Cone.uasset" 598
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 599
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/TopDownCharacter.uasset" 600
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 601
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 602
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 603
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 604
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 605
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 606
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 607
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonRun.uasset" 608
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 609
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/DashAbilityComponent.uasset" 610
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/DashEffectComponent.uasset" 611
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/StealthAbilityComponent.uasset" 612
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/StealthEffectComponent.uasset" 613
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 614
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 615
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 616
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 617
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 618
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 619
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 620
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 621
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 622
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 623
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 624
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 625
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 626
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 627
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 628
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 629
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 630
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 631
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 632
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/Test.uasset" 633
-"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset" 634
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/NewMacroLibrary.uasset" 635
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Test.uasset" 636
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cube.uasset" 637
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/PlayerStart_InGame.uasset" 638
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/OverheadPawn.uasset" 639
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/MacroLibrar.uasset" 640
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameMode_OutGame.uasset" 641
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameMode_InGame.uasset" 642
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/HealEffectComponent.uasset" 643
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/NewBlueprint.uasset" 644
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/HealAbilityComponent.uasset" 645
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset" 646
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/StealthEffectAbility.uasset" 647
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/StealthAbilityComponent.uasset" 648
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/MobaGameMode.uasset" 649
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/BolyAbilityComponent.uasset" 650
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/TopDownOverview.uasset" 651
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 652
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 653
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 654
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 655
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 656
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 657
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 658
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 659
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 660
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 661
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 662
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 663
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 664
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 665
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 666
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 667
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 668
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Basic_Floor.uasset" 669
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_AssetPlatform.uasset" 670
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 671
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 672
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Pillar_50x500.uasset" 673
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Floor_400x400.uasset" 674
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/9/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_281518384B511BB3FA8A489E8F19A43__CDA6D419C88F15BF4F2F892CA5BFC22E2D9A719C.udd" 675
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/9/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_281518384B511BB3F__DCCC06ACE8E9DD68436AB3C07372622B1AFAF297.udd" 676
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_CornerFrame.uasset" 677
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Frame.uasset" 678
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Frame_M.uasset" 679
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Frame_N.uasset" 680
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Chair.uasset" 681
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Chair.uasset" 682
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Chair_M.uasset" 683
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Chair_N.uasset" 684
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Bush.uasset" 685
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Bush.uasset" 686
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Bush_D.uasset" 687
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Bush_N.uasset" 688
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/MaterialSphere.uasset" 689
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Spark.uasset" 690
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Spark_Core.uasset" 691
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 692
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 693
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 694
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 695
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 696
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 697
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 698
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Water_N.uasset" 699
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 700
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 701
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 702
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 703
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 704
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 705
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 706
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 707
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Burst.uasset" 708
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Burst_M.uasset" 709
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Steam_Lit.uasset" 710
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 711
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 712
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 713
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 714
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Water_Ocean.uasset" 715
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Water_M.uasset" 716
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Water_Lake.uasset" 717
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Panel.uasset" 718
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 719
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 720
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 721
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 722
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 723
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 724
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 725
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 726
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 727
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Slate.uasset" 728
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 729
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 730
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 731
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 732
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 733
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 734
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 735
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 736
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 737
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 738
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 739
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Steel.uasset" 740
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 741
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Rust.uasset" 742
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 743
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 744
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Gold.uasset" 745
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 746
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Copper.uasset" 747
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 748
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 749
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 750
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 751
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 752
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Moss.uasset" 753
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 754
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 755
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 756
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 757
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 758
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Grass.uasset" 759
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 760
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 761
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Glass.uasset" 762
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 763
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 764
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 765
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 766
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 767
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 768
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 769
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 770
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 771
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 772
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 773
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 774
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 775
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 776
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 777
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 778
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 779
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 780
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Gradinet_01.uasset" 781
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 782
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 783
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 784
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 785
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 786
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 787
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 788
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 789
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 790
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 791
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 792
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 793
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 794
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 795
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 796
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 797
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 798
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 799
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 800
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 801
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 802
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 803
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 804
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 805
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 806
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 807
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 808
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 809
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Lamp.uasset" 810
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Lamp_M.uasset" 811
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Lamp_N.uasset" 812
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 813
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Steam01_Cue.uasset" 814
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Steam01.uasset" 815
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 816
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 817
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire_Sparks01.uasset" 818
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Sparks.uasset" 819
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 820
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Smoke01_Cue.uasset" 821
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Smoke01.uasset" 822
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Smoke.uasset" 823
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 824
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire01_Cue.uasset" 825
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire01.uasset" 826
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Fire.uasset" 827
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 828
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion_Cue.uasset" 829
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion01.uasset" 830
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion02.uasset" 831
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Explosion.uasset" 832
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 833
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 834
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Wind06.uasset" 835
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Wind05.uasset" 836
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 837
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Music01.uasset" 838
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Birds01.uasset" 839
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 840
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light02_Cue.uasset" 841
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light02.uasset" 842
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light01_Cue.uasset" 843
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light01.uasset" 844
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse_Cue.uasset" 845
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse01.uasset" 846
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse02.uasset" 847
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 848
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 849
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 850
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 851
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_500x500.uasset" 852
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x400.uasset" 853
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x300.uasset" 854
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x200.uasset" 855
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 856
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 857
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 858
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 859
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 860
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 861
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 862
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 863
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 864
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 865
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/1M_Cube.uasset" 866
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/CubeMaterial.uasset" 867
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 868
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/3/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_99F74F1C418C82E04916738C650061C1__1_0_13123_0.udd" 869
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/1/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_2FDA29D4488D359284CA92AB2CC1F5C1__1_0_13123_0.udd" 870
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/1/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_79C63B424630F2C292A02DA51BA4C89B__1_0_13123_0.udd" 871
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/3/REFL_ENC_96DFC022836B48889143E9DF484C3296_F0579F3D4582E8ED3AF97982FD40139D.udd" 872
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__7A28434B39AC95F344E7F53E24DD3E3C01072DFB.udd" 873
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__D5D4039A66BE336C85E320F2E95CE76736D2A7D2.udd" 874
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__D383903F2D1F11846DE35AFE2FB88D0CA9573C4D.udd" 875
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__67243CCE0702C54699E5F4EC77BB55ECD381ABF5.udd" 876
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__030A0FCCBA9C2002067608C49C9FA6DA99D91C8C.udd" 877
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__2BFA44C758F084317DA47775DCDE8CCCCD08642B.udd" 878
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__C64789012FDBA0707728A5E7D7C2EDDBF017DF2E.udd" 879
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__F4CB942AD6679004C415CC02E50BFC9D0BCFB1C3.udd" 880
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__38191747F842B15336B6B9FB1B7DB528555C5168.udd" 881
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__404623E2DACB4BABBA19704AE6544176E3E907A1.udd" 882
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__EC1CA2772C0C08F3B6146A94F27BD7BF443BA32E.udd" 883
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__D73AB3E563EB1F4615363B98074EBCFD9225D8C7.udd" 884
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__9AED2A875540A15A52CED1358D8248C45D551F14.udd" 885
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__6173CE2FF0A45CE7EADC703D07FDA1572276C89A.udd" 886
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__993B583E4D6E3245B98785B4C38DC383FA56EA76.udd" 887
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__26FFC260BED2309B01A4F6D1BCAEE3B1123D3C9A.udd" 888
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__7DCEBD33DDDD8D3F4A900BD54DC2E4BDBB49B86C.udd" 889
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__2BEA2985D9E111BFD9CABD11E9680A088DF2BF6A.udd" 890
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__FAEBAEA302809AE6BFDE7813B6B5A8A104238D57.udd" 891
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__2D6225EA7CD2B110154D8F8E1EEFEE81B3EC9276.udd" 892
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__BA4DB7F9C0A075AFE1BC5C1EC72B1ABAA8C640A5.udd" 893
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__86FEF2A8DB6526378532E0A890C0F6833607936C.udd" 894
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__654ABEF3C2CA316E8D06401D559A2EAE4DBED544.udd" 895
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_33D171E2461D704AA4E72686C5366__0C34B290C66C6A41062DB9B01A5B47CBD43F518D.udd" 896
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/3/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__C0C0AA58996B81C88D582E4A362EE6D274D4AE20.udd" 897
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__22E4985196D889E600E060548FDFE8008AF17D65.udd" 898
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__1BBA7289DBB19F28B018CB474AEEFA84106A65F0.udd" 899
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__8E9B62B20B677F72732E07D42043BC9B7B8B5887.udd" 900
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/6/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__727F4C87CE8B8C5F7F400D7A202C8809E4FF232C.udd" 901
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__9BA86E80E3B13E1C9CDE2DAC8CCCE234F1248BA0.udd" 902
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__5DAC8BC7FCB1558CBD45096BEEF34104BCF03606.udd" 903
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__B82B1F9E4479AC5D9F5D3687F31966489EACFAB7.udd" 904
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/9/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__4F1FE64F1D44666264A0E152A81681FBDDF5AC47.udd" 905
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__17B1200738BF386F9D0A766C28F640C923D623F4.udd" 906
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__D114B93B5C6AA2753087E027E609F2902C809BCA.udd" 907
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/3/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__B892CD835A436CB2FAF1EDD8E4E6A77C336E5295.udd" 908
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__A6963FB45815D195F9A6AED20C852DBC9D90EB74.udd" 909
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/2/8/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__8891E8CEB1FE4C054FEA7CD06248E47D0FE5D1B3.udd" 910
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__AF08D1A0B81B74A165374604B00BEE286AF459B0.udd" 911
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__4C4E8540A86E7E6CD8523DE6AA4B1CDECCE0CE24.udd" 912
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/6/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__BD13F6AAAB19B680E54CFC54434E9D68EDA2923D.udd" 913
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__CCAE94144CCBB11BFCB26867614DC9F3C2383757.udd" 914
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__3DDFEEF3F4EDA35934C436A41C1E55274E9E929D.udd" 915
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/3/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__FCD33044B687F23580DCEB409BCA4532DADF4E71.udd" 916
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_7C3EC4EE4CA9AA76029B15BAA2B2BBCD__446698C4606FD6CC3CFF51230517A46CA3BEE066.udd" 917
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__A997D35F71A7A7E778C3FAA5DFA8332E9A4E051D.udd" 918
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_B205F8E941587C9F68916BA623BDDA0C_0__0FCA85F12FD64880507311BF5BA3BCFD14C5BBDC.udd" 919
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__A575ED04B3CFC0A9506A788DBBAAEC32D021CFC6.udd" 920
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__5F7ED7EE295219451AD0FB1F5EA978F28289448D.udd" 921
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__B944E61E6AEA51B9282D7BD295AAE9874E44E934.udd" 922
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__77FDB5979E1BC3D16490872715B350E0E21C4690.udd" 923
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/0/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__6D7D8491EA4B386E4C488CAB798DE6D2F8183700.udd" 924
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__9DE6CA3C238B2FAB2891289C2880B7A1C170A5C1.udd" 925
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/5/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__DBAD8C19548F0CB52F9310352389CE51D2423D93.udd" 926
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__906C040C62DDB923D35880B797F42816197AB685.udd" 927
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__7BC9F0734152D8B895A201E861ED9D0B3859702D.udd" 928
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/1/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__4E5B6EA3984616C0B3C228CE0C850D861F8D79B8.udd" 929
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__7D6DC441D8D0FBD08629FF0FC6D218E15F4A59AC.udd" 930
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/6/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__A77C6CF717DC7CC030F75ED7144722573CE9883A.udd" 931
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__8A4693642AD0A309F431615EC390F2F9F44CE5AB.udd" 932
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/0/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__96B20E482C476AB7BBBA115ADC7E9DAA363C3B41.udd" 933
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__4EFD72850FDBFCC67ADFCA42CC4E3B33742BFBA2.udd" 934
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__F4A39E201806074CEEB118EFBA8C74FA092092DE.udd" 935
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__30340368F0CA0C951ACD7E9751BCF60661ABB7BE.udd" 936
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__CBABFAC5FD0954D71E674CC56E90D716156BB55D.udd" 937
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__3598B538BE48C066FB2049E3ABCF85091189631D.udd" 938
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__825F3DC2A7685D712F2163E55159FB4C36C47B84.udd" 939
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_FE35368C418FEB7C42A91088F32DF__68619075E7FFE44BC242C8A560C73825FFB5D268.udd" 940
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__55AF7F913BBC40D147B37FE51DD219EEB0E42F2C.udd" 941
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/6/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__87DC277EE448C7D72B24B0EFC50BC2A6DBF40B35.udd" 942
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__0A9C29EE194F12CEADCA09A64CD7F9D08B8010A0.udd" 943
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__494905EA8F4F999E8A947DC98FA02E52C419F985.udd" 944
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__724258DE109D51F643A63225E0E3487F0072EC5A.udd" 945
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__A2FC26DA08CD68069BEB68A8B9438E9C47046D5C.udd" 946
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__74B63985D4AA5D4F6C9EE56BD0C56FCC7C9AAA8A.udd" 947
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__2816794458EF75E67BE356741D13400E81A07AFA.udd" 948
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__14295F58BE1E1FE5115FD07E62B46945262B2618.udd" 949
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__5D9A0386C2C56408A0C0D170F821F3B25EA5149F.udd" 950
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__0345AEDC8440D5F44B60882456C8E2B02A51AE4D.udd" 951
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__4E3F2CBBD2FF8D5A0B946113CD88346F6ED964A7.udd" 952
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__CFDFFFA42D0F56E8E5ACC98541B682CCA333E35E.udd" 953
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__57D0DAE61356F4075405E8F3534126960CAF2F21.udd" 954
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__F54EF68985F3FD1AD323F4A4628AEF14F2DE6AC4.udd" 955
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__B4AE9B7755BA3EC28E63219E00BA3ADAF8E97AD1.udd" 956
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__425D51161F8D25722369ED59216C46987099379E.udd" 957
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__0847C8521CFC8383F7335683277861ECC2682EF3.udd" 958
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__9FDA369735E14C0888E8567FABE218FA4CB8D07F.udd" 959
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__E5E2BB7B7849BA95A3E657D8C087DA640E0A3193.udd" 960
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__78C2F51AC0B08D9B67DBB84F65CA853EE472AE48.udd" 961
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__4642D71610D235C400278B31D2B2D37039C180BE.udd" 962
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__26E9720C3C9C6C54358BCE8603AB3053AE68CCB1.udd" 963
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__1AA152037DC9DE3B97442170930E2D6C1F4A0373.udd" 964
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 965
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 966
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_TableRound.uasset" 967
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_TableRound.uasset" 968
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_TableRound_M.uasset" 969
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_TableRound_N.uasset" 970
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Statue.uasset" 971
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Statue.uasset" 972
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Statue_M.uasset" 973
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Statue_N.uasset" 974
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 975
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Stairs.uasset" 976
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Shelf.uasset" 977
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Shelf.uasset" 978
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Shelf_M.uasset" 979
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Shelf_N.uasset" 980
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Rock.uasset" 981
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Rock.uasset" 982
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_RockMesh_M.uasset" 983
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_RockMesh_N.uasset" 984
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_PillarFrame300.uasset" 985
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_PillarFrame.uasset" 986
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 987
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 988
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 989
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_GlassWindow.uasset" 990
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_DoorFrame.uasset" 991
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Door.uasset" 992
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Door.uasset" 993
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Door_M.uasset" 994
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Door_N.uasset" 995
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Couch.uasset" 996
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 997
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/TemplateFloor.uasset" 998
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 999
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/LobbyLevel.umap" 1000
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/DemoLevel.umap" 1001
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_WindowFrame.uasset" 1002
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/0/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_5346AF83492E2509A0449AB8CFBDDC01__1_0_13123_0.udd" 1003
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/9/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_342A59AE4E54D4509D9C3C818D98797C__1_0_13123_0.udd" 1004
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/3/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_6084962E423FC61FC8865D8F6E9EE2C4__1_0_13123_0.udd" 1005
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_AF687D684C05893BF1C8E7A89B127CE7__1_0_13123_0.udd" 1006
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_5604E3C64403730B1213EC9721E8CA64__1_0_13123_0.udd" 1007
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_8CEA331046DB31D602FDE4B8E40DB246__1_0_13123_0.udd" 1008
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_04EAC9C54BECF9267B8F8C9175D35__B9A7776A0693A781BE9158CF714CCC05312148CD.udd" 1009
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_7F01A44F42F5EB2935E18F840C1E5241_0__BEF7446D928D79A640E1784728C90F65BF31BE54.udd" 1010
-"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/8/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_FFDBD2E54EA83E00B34B2AAE7D28241D__C38E1BAABA32DCC5C69F81B15681161E324E1D78.udd" 1011
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 1012
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 1013
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 1014
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 1015
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 1016
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe.uasset" 1017
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 1018
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 1019
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cone.uasset" 1020
-"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1CFE11AD4CFBF5718088479E2DA4101C/0/WorkerOutputOnly.out" 1021
-"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1CFE11AD4CFBF5718088479E2DA4101C/3/WorkerOutputOnly.out" 1022
-"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1CFE11AD4CFBF5718088479E2DA4101C/1/WorkerOutputOnly.out" 1023
-"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1CFE11AD4CFBF5718088479E2DA4101C/2/WorkerOutputOnly.out" 1024
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 1025
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 1026
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/StarterMap.umap" 1027
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 1028
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 1029
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 1030
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 1031
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Oak.uasset" 1032
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 1033
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Pine.uasset" 1034
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 1035
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 1036
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 1037
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 1038
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Sphere.uasset" 1039
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 1040
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 1041
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 1042
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 1043
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Tube.uasset" 1044
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 1045
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 1046
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 1047
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim.uasset" 1048
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Torus.uasset" 1049
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Plane.uasset" 1050
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 1051
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/Advanced_Lighting.umap" 1052
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 1053
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 1054
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 1055
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 1056
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/Minimal_Default.umap" 1057
-"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 1058
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 1059
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 1060
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/MobaGameMode_Auto1.uasset" 477
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/MobaGameMode_Auto2.uasset" 478
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent_Auto2.uasset" 479
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent_Auto4.uasset" 480
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/AbilityComponents/DashAbilityComponent_Auto2.uasset" 481
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/EffectComponents/DashEffectComponent_Auto1.uasset" 482
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controller_InGame_Auto1.uasset" 483
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controller_OutGame_Auto1.uasset" 484
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba_Auto1.uasset" 485
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba_Auto2.uasset" 486
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameMode_InGame_Auto1.uasset" 487
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/GameMode_InGame_Auto2.uasset" 488
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/OverheadPawn_Auto1.uasset" 489
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PAIController_Auto2.uasset" 490
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_InGame_Auto1.uasset" 491
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame_Auto1.uasset" 492
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame_Auto3.uasset" 493
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/TopDownCharacter_Auto2.uasset" 494
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto1.uasset" 495
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto2.uasset" 496
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto3.uasset" 497
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/Tower_Auto4.uasset" 498
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interactables/TPCharacterController_Auto2.uasset" 499
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/JoinLobbyWidget_Auto2.uasset" 500
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/Menu_Auto1.uasset" 501
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Blueprints/Interface/TitleMenu_Auto2.uasset" 502
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap" 503
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Autosaves/Temp/Untitled_4_Auto1.umap" 504
+"C:/Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Saved/Cooked/WindowsNoEditor/Moba/CookedIniVersion.txt" 505
+"../../../Engine/Config/HTML5/HTML5Engine.ini" 506
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 507
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameInstance_Moba.uasset" 508
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 509
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 510
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 511
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 512
+"../../../Engine/Content/EditorMaterials/PhAT_JointLimitMaterial.uasset" 513
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 514
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 515
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 516
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 517
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 518
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 519
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 520
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 521
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 522
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 523
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 524
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 525
+"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 526
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset" 527
+"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 528
+"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 529
+"../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset" 530
+"../../../Engine/Content/EngineMeshes/Cube.uasset" 531
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 532
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 533
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 534
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 535
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 536
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 537
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 538
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 539
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 540
+"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 541
+"../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset" 542
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset" 543
+"../../../Engine/Content/EditorMeshes/EditorCube.uasset" 544
+"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 545
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 546
+"../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset" 547
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 548
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 549
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 550
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 551
+"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset" 552
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 553
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 554
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 555
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 556
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 557
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 558
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 559
+"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset" 560
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 561
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 562
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 563
+"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 564
+"../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset" 565
+"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset" 566
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 567
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 568
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 569
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 570
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 571
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 572
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 573
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 574
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 575
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 576
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 577
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 578
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 579
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/OverheadPawn.uasset" 580
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/NewMacroLibrary.uasset" 581
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/MacroLibrar.uasset" 582
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameMode_OutGame.uasset" 583
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PController_OutGame.uasset" 584
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/JoinLobbyWidget.uasset" 585
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/SessionWidget.uasset" 586
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/TitleMenu.uasset" 587
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/GameMode_InGame.uasset" 588
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PController_InGame.uasset" 589
+"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset" 590
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Controllers/PAIController.uasset" 591
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/TopDownCharacter.uasset" 592
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 593
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 594
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 595
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 596
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 597
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 598
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 599
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonRun.uasset" 600
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 601
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/DashAbilityComponent.uasset" 602
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/DashEffectComponent.uasset" 603
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 604
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 605
+"../../../Engine/Content/BasicShapes/Cone.uasset" 606
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/StealthAbilityComponent.uasset" 607
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/StealthEffectComponent.uasset" 608
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 609
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 610
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 611
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 612
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 613
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 614
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 615
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 616
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 617
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 618
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 619
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 620
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 621
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 622
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 623
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 624
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 625
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 626
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 627
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/PlayerStart_InGame.uasset" 628
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/EffectComponents/HealEffectComponent.uasset" 629
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityProjectiles/BasicAttackProjectile.uasset" 630
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 631
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_MacroVariation.uasset" 632
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 633
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 634
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 635
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Basic_Wall.uasset" 636
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/NewBlueprint.uasset" 637
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/HealAbilityComponent.uasset" 638
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/AbilityComponents/BasicAttackComponent.uasset" 639
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset" 640
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/StealthEffectAbility.uasset" 641
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/StealthAbilityComponent.uasset" 642
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/MobaGameMode.uasset" 643
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/BolyAbilityComponent.uasset" 644
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/TopDownOverview.uasset" 645
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 646
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 647
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 648
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 649
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 650
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 651
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Lamp.uasset" 652
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Lamp_M.uasset" 653
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Lamp_N.uasset" 654
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 655
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_GlassWindow.uasset" 656
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Glass.uasset" 657
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_DoorFrame.uasset" 658
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Frame.uasset" 659
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Frame_M.uasset" 660
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Frame_N.uasset" 661
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Door.uasset" 662
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Door.uasset" 663
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Door_M.uasset" 664
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Door_N.uasset" 665
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Couch.uasset" 666
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Chair.uasset" 667
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Chair_M.uasset" 668
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Chair_N.uasset" 669
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_CornerFrame.uasset" 670
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Chair.uasset" 671
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Bush.uasset" 672
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Bush.uasset" 673
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Bush_D.uasset" 674
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Bush_N.uasset" 675
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/MaterialSphere.uasset" 676
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Spark.uasset" 677
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Spark_Core.uasset" 678
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 679
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 680
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 681
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 682
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 683
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 684
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 685
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Water_N.uasset" 686
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 687
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 688
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 689
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 690
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 691
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 692
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 693
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 694
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/Materials/M_Burst.uasset" 695
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Burst_M.uasset" 696
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Steam_Lit.uasset" 697
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Oak.uasset" 698
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 699
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 700
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 701
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 702
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 703
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 704
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 705
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 706
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 707
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Water_Ocean.uasset" 708
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Water_M.uasset" 709
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Water_Lake.uasset" 710
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Panel.uasset" 711
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 712
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 713
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 714
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 715
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 716
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 717
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 718
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 719
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 720
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Slate.uasset" 721
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 722
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 723
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 724
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 725
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 726
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 727
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 728
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 729
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 730
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 731
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 732
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Steel.uasset" 733
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 734
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Rust.uasset" 735
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 736
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 737
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Gold.uasset" 738
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 739
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Copper.uasset" 740
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 741
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 742
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 743
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 744
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 745
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Moss.uasset" 746
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 747
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 748
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 749
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 750
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 751
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ground_Grass.uasset" 752
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 753
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 754
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 755
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 756
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 757
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 758
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 759
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 760
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 761
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 762
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 763
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 764
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 765
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 766
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 767
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 768
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 769
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 770
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 771
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 772
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Gradinet_01.uasset" 773
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 774
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 775
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 776
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 777
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 778
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 779
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 780
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 781
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 782
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 783
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 784
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 785
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 786
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 787
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 788
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 789
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 790
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 791
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 792
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 793
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 794
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 795
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 796
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 797
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 798
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 799
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 800
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 801
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 802
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Basic_Floor.uasset" 803
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_AssetPlatform.uasset" 804
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 805
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Torus.uasset" 806
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Sphere.uasset" 807
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Plane.uasset" 808
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 809
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 810
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Pipe.uasset" 811
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 812
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 813
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cube.uasset" 814
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Cone.uasset" 815
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_TableRound.uasset" 816
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_TableRound_M.uasset" 817
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_TableRound_N.uasset" 818
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 819
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Statue_M.uasset" 820
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Statue_N.uasset" 821
+"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1A8BF3454FDCE465979BE1A79FA67A83/0/WorkerOutputOnly.out" 822
+"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1A8BF3454FDCE465979BE1A79FA67A83/3/WorkerOutputOnly.out" 823
+"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1A8BF3454FDCE465979BE1A79FA67A83/1/WorkerOutputOnly.out" 824
+"C:/Users/Ray/AppData/Local/Temp/UnrealShaderWorkingDir/1A8BF3454FDCE465979BE1A79FA67A83/2/WorkerOutputOnly.out" 825
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 826
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim.uasset" 827
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Statue.uasset" 828
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Statue.uasset" 829
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Shelf.uasset" 830
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Shelf_M.uasset" 831
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Shelf_N.uasset" 832
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/Materials/M_Rock.uasset" 833
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_RockMesh_M.uasset" 834
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_RockMesh_N.uasset" 835
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_WindowFrame.uasset" 836
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_TableRound.uasset" 837
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Stairs.uasset" 838
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Shelf.uasset" 839
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_Rock.uasset" 840
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_PillarFrame300.uasset" 841
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Props/SM_PillarFrame.uasset" 842
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Sparks.uasset" 843
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 844
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 845
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 846
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 847
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 848
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 849
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 850
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 851
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 852
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 853
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 854
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 855
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 856
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Steam01_Cue.uasset" 857
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Steam01.uasset" 858
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 859
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 860
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire_Sparks01.uasset" 861
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 862
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Smoke01_Cue.uasset" 863
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Smoke01.uasset" 864
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Smoke.uasset" 865
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 866
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire01_Cue.uasset" 867
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Fire01.uasset" 868
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Fire.uasset" 869
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 870
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion_Cue.uasset" 871
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion01.uasset" 872
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Explosion02.uasset" 873
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Explosion.uasset" 874
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 875
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Wind06.uasset" 876
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Wind05.uasset" 877
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 878
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Music01.uasset" 879
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Birds01.uasset" 880
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 881
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light02_Cue.uasset" 882
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light02.uasset" 883
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light01_Cue.uasset" 884
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Light01.uasset" 885
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse_Cue.uasset" 886
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse01.uasset" 887
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Audio/Collapse02.uasset" 888
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 889
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 890
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 891
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 892
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_500x500.uasset" 893
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x400.uasset" 894
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x300.uasset" 895
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Wall_400x200.uasset" 896
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 897
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Pillar_50x500.uasset" 898
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Architecture/Floor_400x400.uasset" 899
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/9/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_281518384B511BB3FA8A489E8F19A43__CDA6D419C88F15BF4F2F892CA5BFC22E2D9A719C.udd" 900
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/9/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_281518384B511BB3F__DCCC06ACE8E9DD68436AB3C07372622B1AFAF297.udd" 901
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 902
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/TopDownExampleMap.umap" 903
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/Tower.uasset" 904
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 905
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 906
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 907
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 908
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 909
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 910
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 911
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 912
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 913
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 914
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/1M_Cube.uasset" 915
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/CubeMaterial.uasset" 916
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 917
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/3/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_99F74F1C418C82E04916738C650061C1__1_0_13123_0.udd" 918
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/1/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_2FDA29D4488D359284CA92AB2CC1F5C1__1_0_13123_0.udd" 919
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/1/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_79C63B424630F2C292A02DA51BA4C89B__1_0_13123_0.udd" 920
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/3/REFL_ENC_96DFC022836B48889143E9DF484C3296_F0579F3D4582E8ED3AF97982FD40139D.udd" 921
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__7A28434B39AC95F344E7F53E24DD3E3C01072DFB.udd" 922
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__D5D4039A66BE336C85E320F2E95CE76736D2A7D2.udd" 923
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__D383903F2D1F11846DE35AFE2FB88D0CA9573C4D.udd" 924
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__030A0FCCBA9C2002067608C49C9FA6DA99D91C8C.udd" 925
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__67243CCE0702C54699E5F4EC77BB55ECD381ABF5.udd" 926
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__2BFA44C758F084317DA47775DCDE8CCCCD08642B.udd" 927
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__F4CB942AD6679004C415CC02E50BFC9D0BCFB1C3.udd" 928
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__C64789012FDBA0707728A5E7D7C2EDDBF017DF2E.udd" 929
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_7E59F82A49A8687CC9ADC099BD07D__EC1CA2772C0C08F3B6146A94F27BD7BF443BA32E.udd" 930
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1599522F45FDCF901CA9599432611__38191747F842B15336B6B9FB1B7DB528555C5168.udd" 931
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__993B583E4D6E3245B98785B4C38DC383FA56EA76.udd" 932
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__404623E2DACB4BABBA19704AE6544176E3E907A1.udd" 933
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__26FFC260BED2309B01A4F6D1BCAEE3B1123D3C9A.udd" 934
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__FAEBAEA302809AE6BFDE7813B6B5A8A104238D57.udd" 935
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_46C7B8C4412276B04DED19ADC1496__2D6225EA7CD2B110154D8F8E1EEFEE81B3EC9276.udd" 936
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__D73AB3E563EB1F4615363B98074EBCFD9225D8C7.udd" 937
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__9AED2A875540A15A52CED1358D8248C45D551F14.udd" 938
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CCD4B0414AC5E9E1C91B2D8267414__6173CE2FF0A45CE7EADC703D07FDA1572276C89A.udd" 939
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_33D171E2461D704AA4E72686C5366__0C34B290C66C6A41062DB9B01A5B47CBD43F518D.udd" 940
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__7DCEBD33DDDD8D3F4A900BD54DC2E4BDBB49B86C.udd" 941
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__654ABEF3C2CA316E8D06401D559A2EAE4DBED544.udd" 942
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__2BEA2985D9E111BFD9CABD11E9680A088DF2BF6A.udd" 943
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__22E4985196D889E600E060548FDFE8008AF17D65.udd" 944
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__BA4DB7F9C0A075AFE1BC5C1EC72B1ABAA8C640A5.udd" 945
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_5ACFAFA140B8854F00E77B9178D13__86FEF2A8DB6526378532E0A890C0F6833607936C.udd" 946
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/3/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__C0C0AA58996B81C88D582E4A362EE6D274D4AE20.udd" 947
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__1BBA7289DBB19F28B018CB474AEEFA84106A65F0.udd" 948
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__9BA86E80E3B13E1C9CDE2DAC8CCCE234F1248BA0.udd" 949
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_A5C89AD043E28EE405B3F6896E9DAF65__B82B1F9E4479AC5D9F5D3687F31966489EACFAB7.udd" 950
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__8E9B62B20B677F72732E07D42043BC9B7B8B5887.udd" 951
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/6/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__727F4C87CE8B8C5F7F400D7A202C8809E4FF232C.udd" 952
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/9/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__4F1FE64F1D44666264A0E152A81681FBDDF5AC47.udd" 953
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_F416454F4BA10BADBC3F13A0B7B48D44__D114B93B5C6AA2753087E027E609F2902C809BCA.udd" 954
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__17B1200738BF386F9D0A766C28F640C923D623F4.udd" 955
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/3/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__B892CD835A436CB2FAF1EDD8E4E6A77C336E5295.udd" 956
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__5DAC8BC7FCB1558CBD45096BEEF34104BCF03606.udd" 957
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/2/8/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__8891E8CEB1FE4C054FEA7CD06248E47D0FE5D1B3.udd" 958
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/6/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__BD13F6AAAB19B680E54CFC54434E9D68EDA2923D.udd" 959
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_64FB372A4AFDC097FD6F9C8A0B0D692C__CCAE94144CCBB11BFCB26867614DC9F3C2383757.udd" 960
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__4C4E8540A86E7E6CD8523DE6AA4B1CDECCE0CE24.udd" 961
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__A6963FB45815D195F9A6AED20C852DBC9D90EB74.udd" 962
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/3/5/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D061DCB74DA5B083FA8BE8870EEFDC56__FCD33044B687F23580DCEB409BCA4532DADF4E71.udd" 963
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__AF08D1A0B81B74A165374604B00BEE286AF459B0.udd" 964
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/7/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_7C3EC4EE4CA9AA76029B15BAA2B2BBCD__446698C4606FD6CC3CFF51230517A46CA3BEE066.udd" 965
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__A997D35F71A7A7E778C3FAA5DFA8332E9A4E051D.udd" 966
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_B205F8E941587C9F68916BA623BDDA0C_0__0FCA85F12FD64880507311BF5BA3BCFD14C5BBDC.udd" 967
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__A575ED04B3CFC0A9506A788DBBAAEC32D021CFC6.udd" 968
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__3DDFEEF3F4EDA35934C436A41C1E55274E9E929D.udd" 969
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__5F7ED7EE295219451AD0FB1F5EA978F28289448D.udd" 970
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_AB4A35C641AB8C1AF6D461B0948FDF7C__F4A39E201806074CEEB118EFBA8C74FA092092DE.udd" 971
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__B944E61E6AEA51B9282D7BD295AAE9874E44E934.udd" 972
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__9DE6CA3C238B2FAB2891289C2880B7A1C170A5C1.udd" 973
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/9/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__77FDB5979E1BC3D16490872715B350E0E21C4690.udd" 974
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/5/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__DBAD8C19548F0CB52F9310352389CE51D2423D93.udd" 975
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/0/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_C97E043440010473FD647AB65D419A57_0__6D7D8491EA4B386E4C488CAB798DE6D2F8183700.udd" 976
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/1/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__4E5B6EA3984616C0B3C228CE0C850D861F8D79B8.udd" 977
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__906C040C62DDB923D35880B797F42816197AB685.udd" 978
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__7D6DC441D8D0FBD08629FF0FC6D218E15F4A59AC.udd" 979
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_51D9868A4EC537A1E32FF0BED4A86536_0__7BC9F0734152D8B895A201E861ED9D0B3859702D.udd" 980
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/0/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__96B20E482C476AB7BBBA115ADC7E9DAA363C3B41.udd" 981
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/6/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__A77C6CF717DC7CC030F75ED7144722573CE9883A.udd" 982
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/7/8/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__4EFD72850FDBFCC67ADFCA42CC4E3B33742BFBA2.udd" 983
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_69FBC4824DFD107055B610937DAC5E9A_0__8A4693642AD0A309F431615EC390F2F9F44CE5AB.udd" 984
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__CBABFAC5FD0954D71E674CC56E90D716156BB55D.udd" 985
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__30340368F0CA0C951ACD7E9751BCF60661ABB7BE.udd" 986
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__825F3DC2A7685D712F2163E55159FB4C36C47B84.udd" 987
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_FC72BBB247412797B1619C8E217D1E56_0__3598B538BE48C066FB2049E3ABCF85091189631D.udd" 988
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_FE35368C418FEB7C42A91088F32DF__68619075E7FFE44BC242C8A560C73825FFB5D268.udd" 989
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__55AF7F913BBC40D147B37FE51DD219EEB0E42F2C.udd" 990
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__57D0DAE61356F4075405E8F3534126960CAF2F21.udd" 991
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__26E9720C3C9C6C54358BCE8603AB3053AE68CCB1.udd" 992
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_4C632CEE4CE5496B47CEE4B149FC3__1AA152037DC9DE3B97442170930E2D6C1F4A0373.udd" 993
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__A2FC26DA08CD68069BEB68A8B9438E9C47046D5C.udd" 994
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__74B63985D4AA5D4F6C9EE56BD0C56FCC7C9AAA8A.udd" 995
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/6/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__87DC277EE448C7D72B24B0EFC50BC2A6DBF40B35.udd" 996
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__2816794458EF75E67BE356741D13400E81A07AFA.udd" 997
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__0A9C29EE194F12CEADCA09A64CD7F9D08B8010A0.udd" 998
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_8EE106F34B2A75B76178C59EBA947__14295F58BE1E1FE5115FD07E62B46945262B2618.udd" 999
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__5D9A0386C2C56408A0C0D170F821F3B25EA5149F.udd" 1000
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/7/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__494905EA8F4F999E8A947DC98FA02E52C419F985.udd" 1001
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__4E3F2CBBD2FF8D5A0B946113CD88346F6ED964A7.udd" 1002
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__0345AEDC8440D5F44B60882456C8E2B02A51AE4D.udd" 1003
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_BB78D0704EEE72EDC6238FB82F9C1547_0__724258DE109D51F643A63225E0E3487F0072EC5A.udd" 1004
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__CFDFFFA42D0F56E8E5ACC98541B682CCA333E35E.udd" 1005
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__B4AE9B7755BA3EC28E63219E00BA3ADAF8E97AD1.udd" 1006
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__425D51161F8D25722369ED59216C46987099379E.udd" 1007
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_1932C1764D42F96AAA1D69A242234__F54EF68985F3FD1AD323F4A4628AEF14F2DE6AC4.udd" 1008
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__0847C8521CFC8383F7335683277861ECC2682EF3.udd" 1009
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__9FDA369735E14C0888E8567FABE218FA4CB8D07F.udd" 1010
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__78C2F51AC0B08D9B67DBB84F65CA853EE472AE48.udd" 1011
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_734C9CC54AD49CE3EAC68C8DD3F02__E5E2BB7B7849BA95A3E657D8C087DA640E0A3193.udd" 1012
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_E1FABC794C8005D7E1EE3188961B6__4642D71610D235C400278B31D2B2D37039C180BE.udd" 1013
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 1014
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 1015
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/Geometry/Meshes/TemplateFloor.uasset" 1016
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 1017
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 1018
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interactables/Test.uasset" 1019
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/GameFramework/Test.uasset" 1020
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 1021
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/DemoLevel.umap" 1022
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/0/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_5346AF83492E2509A0449AB8CFBDDC01__1_0_13123_0.udd" 1023
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/9/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_342A59AE4E54D4509D9C3C818D98797C__1_0_13123_0.udd" 1024
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/3/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_6084962E423FC61FC8865D8F6E9EE2C4__1_0_13123_0.udd" 1025
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_AF687D684C05893BF1C8E7A89B127CE7__1_0_13123_0.udd" 1026
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_5604E3C64403730B1213EC9721E8CA64__1_0_13123_0.udd" 1027
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/2/PHYSX_1D9C17C451EA4FB88CB7A27536A65DB0_PHYSXPC_8CEA331046DB31D602FDE4B8E40DB246__1_0_13123_0.udd" 1028
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_04EAC9C54BECF9267B8F8C9175D35__B9A7776A0693A781BE9158CF714CCC05312148CD.udd" 1029
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/8/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_FFDBD2E54EA83E00B34B2AAE7D28241D__C38E1BAABA32DCC5C69F81B15681161E324E1D78.udd" 1030
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/2/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_7F01A44F42F5EB2935E18F840C1E5241_0__BEF7446D928D79A640E1784728C90F65BF31BE54.udd" 1031
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/Minimal_Default.umap" 1032
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 1033
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 1034
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Maps/LobbyLevel.umap" 1035
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/StarterMap.umap" 1036
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 1037
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 1038
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Pine.uasset" 1039
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 1040
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 1041
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 1042
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 1043
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 1044
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 1045
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 1046
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 1047
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Tube.uasset" 1048
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 1049
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 1050
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 1051
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 1052
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/StarterContent/Maps/Advanced_Lighting.umap" 1053
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 1054
+"../../../../../../Users/Ray/Documents/Campus Clubs/Bruin Game Studios/Moba/Content/TopDownCPP/Blueprints/Interface/Menu.uasset" 1055
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 1056
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 1057
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 1058
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 1059
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 1060
 "..\..\..\Engine\Content\Internationalization\icudt53l\windowsZones.res" 1061
 "..\..\..\Engine\Content\Internationalization\icudt53l\zoneinfo64.res" 1062
 "..\..\..\Engine\Content\Internationalization\icudt53l\keyTypeData.res" 1063
 "..\..\..\Engine\Content\Internationalization\icudt53l\timezoneTypes.res" 1064
 "..\..\..\Engine\Content\Internationalization\icudt53l\supplementalData.res" 1065
 "..\..\..\Engine\Content\Internationalization\icudt53l\likelySubtags.res" 1066
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/AUDIO_0002_0000_OGG_0001_CD469D784CE5A724E7AC91BFEB714703.udd" 1067
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/0/AUDIO_0002_0000_OGG_0001_E75A4F2F4CCFF455DEA17FBBE7ACBDC4.udd" 1068
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/0/AUDIO_0002_0000_OGG_0001_832AA7D646A65116077516991F445FE9.udd" 1069
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/2/AUDIO_0002_0000_OGG_0001_8D7626FF43F2E7CB0FFEF1819DF93FE0.udd" 1070
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/4/AUDIO_0002_0000_OGG_0001_B847AAD74080418C90B2E9968E18B4E9.udd" 1071
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/0/AUDIO_0002_0000_OGG_0001_31D870B44577B2511571CA9564A08892.udd" 1072
+"C:/Users/Ray/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/0/AUDIO_0002_0000_OGG_0001_B61A001F430257DF762D2EB2E8AF2447.udd" 1073

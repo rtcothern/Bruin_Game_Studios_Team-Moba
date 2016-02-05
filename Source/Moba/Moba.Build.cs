@@ -6,6 +6,7 @@ public class Moba : ModuleRules
 {
 	public Moba(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "OnlineSubsystem", "OnlineSubsystemNull", "OnlineSubsystemUtils"});
+		PrivateDependencyModuleNames.AddRange(new string[] { "OnlineSubsystem" });
 	}
 }
