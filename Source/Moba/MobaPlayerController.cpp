@@ -5,13 +5,14 @@
 #include "Unit.h"
 #include "AbilityComponent.h"
 #include "MobaPlayerController.h"
+#include "MobaAIController.h"
 #include "AI/Navigation/NavigationSystem.h"
 
 AMobaPlayerController::AMobaPlayerController()
 {
 	bShowMouseCursor = true;
 	bEnableClickEvents = true;
-	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	//DefaultMouseCursor = EMouseCursor::Crosshairs;
 }
 
 void AMobaPlayerController::PlayerTick(float DeltaTime)
@@ -46,6 +47,7 @@ void AMobaPlayerController::MoveToMouseCursor()
 	GetHitResultUnderCursor(ECC_Visibility, false, Hit);
 
 	if (Hit.bBlockingHit)
+
 	{
 		// We hit something, move there
 		SetNewMoveDestination(Hit.ImpactPoint);
@@ -66,7 +68,7 @@ void AMobaPlayerController::MoveToTouchLocation(const ETouchIndex::Type FingerIn
 	}
 }
 
-void AMobaPlayerController::SetNewMoveDestination(const FVector DestLocation)
+void AMobaPlayerController::SetNewMoveDestination_Implementation(const FVector DestLocation)
 {
 	APawn* const Pawn = GetPawn();
 	if (Pawn)
@@ -94,10 +96,14 @@ void AMobaPlayerController::OnSetDestinationReleased()
 	bMoveToMouseCursor = false;
 }
 
-void AMobaPlayerController::CastAbility1()
+void AMobaPlayerController::CastAbility1_Implementation()
 {
-	AMobaCharacter *Character = (AMobaCharacter*)GetCharacter();
+	AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
 	FHitResult Result;
 	GetHitResultUnderCursor(ECC_Visibility, true, Result);
 	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
+}
+
+bool AMobaPlayerController::CastAbility1_Validate() {
+	return true;
 }

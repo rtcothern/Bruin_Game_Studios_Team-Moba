@@ -11,3 +11,5 @@ Moba.opensdf
 Config/DefaultEngine.ini
 Moba.VC.opendb
 *.umap
+
+Build/

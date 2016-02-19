@@ -17,14 +17,21 @@ UCLASS(Blueprintable, BlueprintType, ClassGroup = "Effects")
 class MOBA_API UEffectComponent : public UActorComponent
 {
 	GENERATED_BODY()
-	protected:
-		//
-		UFUNCTION(BlueprintNativeEvent)
-		void Initialize();
 
-		//
+	protected:
+		//how long this effect will remain attatched to its target
 		UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 		float Duration;
+
+		//what the component does every tick
+		//delta is the amount of time which has passed
+		UFUNCTION(BlueprintNativeEvent)
+		void Persist(float delta);
+
+		//cleanup to be preformed before destroy the component
+		//consider restoring the owning actor to its original state
+		UFUNCTION(BlueprintNativeEvent)
+		void Cleanup();
 
 	public:	
 		// Sets default values for this component's properties
@@ -36,7 +43,17 @@ class MOBA_API UEffectComponent : public UActorComponent
 		// Called every frame
 		virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
-		//Initial tasks to be executed when after EffectComponent has been applied
-		UFUNCTION(BlueprintNativeEvent, Category = "Effect")
-		void OnApply();		
+		//what must be done immediately upon attaching this EffectComponent to an Interactable
+		//it is advised that you set duration in 
+		UFUNCTION(BlueprintNativeEvent)
+		void Apply();
+
+		//returns who this ability is attached to
+		UFUNCTION(BlueprintCallable, Category = "Effects")
+		AInteractable* GetAffected() const;
+
+		//
+		UFUNCTION(BlueprintCallable, Category = "Effects")
+		AInteractable* GetCaster() const;
+		
 };

@@ -7,7 +7,8 @@
 
 AMobaGameMode::AMobaGameMode()
 {
-	// use our custom PlayerController class
+	/*
+	// use our custom PlayerController class/*
 	PlayerControllerClass = AMobaPlayerController::StaticClass();
 
 	// set default pawn class to our Blueprinted character
@@ -16,4 +17,5 @@ AMobaGameMode::AMobaGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	*/
 }

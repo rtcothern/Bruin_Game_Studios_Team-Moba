@@ -68,7 +68,7 @@ bool UAbilityComponent::AreExtraConditionsMet_Implementation()
 	Cooldown related functions
 	----------
 */
-bool UAbilityComponent::IsOnCooldown()
+bool UAbilityComponent::IsOnCooldown() const
 {
 	return RemainingCooldown > 0;
 }
@@ -98,7 +98,7 @@ void UAbilityComponent::AttemptCast()
 		return;
 	}	
 
-	CastAbility();
+		CastAbility();
 
 	if (bHasProjectile)
 	{
@@ -141,6 +141,7 @@ void UAbilityComponent::CastProjectile()
 	Start.Z += ProjectileRelativeSpawnLocation.Z;
 
 	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
+	Projectile->SetSource(GetCaster());
 
 	if (bTargetedAbility)
 	{
@@ -148,15 +149,14 @@ void UAbilityComponent::CastProjectile()
 	}
 	else
 	{
-		Destination.X = Start.X + MaxRange * Cos;
+		Destination.X = Start.X - MaxRange * Cos;
 		Destination.Y = Start.Y + MaxRange * Sin;
 		Destination.Z = Start.Z;
 		Projectile->SetDestination(Destination);
-		Projectile->SetVelocity(1000.f);
 	}
 }
 
-AInteractable * UAbilityComponent::GetCaster()
+AInteractable * UAbilityComponent::GetCaster() const
 {
 	return (AInteractable*)GetOwner();
 }
@@ -263,7 +263,7 @@ bool UAbilityComponent::IsTargetValid()
 	return bLocationValidTarget;
 }
 
-bool UAbilityComponent::IsTargetInRange()
+bool UAbilityComponent::IsTargetInRange() const
 {
 	UE_LOG(Abilities, Log, TEXT("Still have yet to make RANGE_SELF and RANGE_GLOBAL available in Blueprints."));
 

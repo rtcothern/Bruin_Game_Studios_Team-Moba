@@ -3,7 +3,6 @@
 #include "Moba.h"
 #include "EffectComponent.h"
 
-
 // Sets default values for this component's properties
 UEffectComponent::UEffectComponent()
 {
@@ -13,9 +12,7 @@ UEffectComponent::UEffectComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 	SetComponentTickEnabled(true);
 
-	Initialize();
 }
-
 
 // Called when the game starts
 void UEffectComponent::BeginPlay()
@@ -31,13 +28,49 @@ void UEffectComponent::BeginPlay()
 void UEffectComponent::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction )
 {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
-	// ...
+
+	float actualDelta;
+	if (DeltaTime > Duration)
+	{
+		actualDelta = Duration;
+		Duration = 0;
+	}
+	else
+	{
+		actualDelta = DeltaTime;
+		Duration -= DeltaTime;
+	}
+
+	if (actualDelta >= 0)
+	{
+		Persist(actualDelta);
+	}
+
+	if (Duration == 0)
+	{
+		Cleanup();
+		DestroyComponent();
+	}
 }
 
-void UEffectComponent::Initialize_Implementation()
+AInteractable * UEffectComponent::GetAffected() const
+{
+	return (AInteractable*)GetOwner();
+}
+
+AInteractable * UEffectComponent::GetCaster() const
+{
+	return nullptr;
+}
+
+void UEffectComponent::Apply_Implementation()
 {
 }
 
-void UEffectComponent::OnApply_Implementation()
+void UEffectComponent::Persist_Implementation(float delta)
+{
+}
+
+void UEffectComponent::Cleanup_Implementation()
 {
 }

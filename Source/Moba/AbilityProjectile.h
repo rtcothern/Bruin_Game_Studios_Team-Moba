@@ -28,6 +28,9 @@ protected:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
 	FVector Delta;
 
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly)
+	AInteractable *Source;
+
 public:	
 	// Sets default values for this actor's properties
 	AAbilityProjectile();
@@ -46,6 +49,9 @@ public:
 	//Updates Velocity and recalculates Delta
 	UFUNCTION(BlueprintCallable, Category = "")
 	void SetVelocity(float InVelocity);
+
+	//
+	void SetSource(AInteractable *s);
 	/*
 	//
 	//UFUNCTION()

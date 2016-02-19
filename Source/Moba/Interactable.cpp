@@ -44,17 +44,23 @@ bool AInteractable::ApplyEffect(UClass* EffectClassType)
 		return false;
 	}
 
-	UEffectComponent *Effect = (UEffectComponent*)NewObject<UActorComponent>(EffectClassType);
+	UEffectComponent *Effect = (UEffectComponent*)NewObject<UEffectComponent>(this, EffectClassType);
 	Effect->RegisterComponent();
-	AppliedEffects.Push(Effect);
-	Effect->OnApply();
+	Effect->Apply();
 
 	return true;
 }
 
-void AInteractable::RemoveEffect(UEffectComponent *Effect)
+float AInteractable::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
 {
-	AppliedEffects.Remove(Effect);
+	RemainingHealth -= DamageAmount;
+
+	if (RemainingHealth <= 0)
+	{
+
+	}
+
+	return RemainingHealth;
 }
 
 ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor)

@@ -10,12 +10,12 @@ class UAbilityComponent;
 class UEffectComponent;
 
 /* Enum type which represents what team an Interactable is on */
-UENUM()
+UENUM(BlueprintType)
 enum class ETeam : uint8
 {
-	TeamA,
-	TeamB,
-	Neutral
+	TeamA UMETA(DisplayName = "Team 1"),
+	TeamB UMETA(DisplayName = "Team 2"),
+	Neutral UMETA(DisplayName = "Neutral")
 };
 
 /* Enum type which reflects the relationship between two team units. */
@@ -32,11 +32,6 @@ UCLASS(abstract)
 class MOBA_API AInteractable : public ACharacter
 {
 	GENERATED_BODY()
-private:
-	//Array of EffectCompoents currently attached to this Interactable
-	//VisibleInstanceOnly because 
-	UPROPERTY(VisibleInstanceOnly)
-	TArray<UEffectComponent*> AppliedEffects;
 
 protected:
 	//All Interactables have some form of a basic interact ability ability
@@ -68,6 +63,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 KillStreakWorth;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
+		int32 MoreTest;
+
 public:
 	
 
@@ -88,9 +86,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
 	bool ApplyEffect(UClass* EffectClassType);
 
-	//Removes the passed Effect from AppliedEffects
-	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
-	void RemoveEffect(UEffectComponent *Effect);
+	//
+	virtual float TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser);
 
 	//Is this interactable of type Player/MobaCharacter?
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
