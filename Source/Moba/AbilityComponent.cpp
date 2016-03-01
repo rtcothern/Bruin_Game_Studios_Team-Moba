@@ -274,3 +274,87 @@ bool UAbilityComponent::IsTargetInRange() const
 		MaxRange == RANGE_GLOBAL ||
 		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
 }
+
+const FString AbilityBuilder::ACTOR_BEGIN_OVERLAP = "ACTOR_BEGIN_OVERLAP";
+
+AbilityBuilder::AbilityBuilder() {
+	TSharedRef<AbilityEvent> root(new AbilityEvent);
+	mEventMap.Add("root", root);
+}
+
+UAbilityComponent* AbilityBuilder::BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
+	//12345: remove
+	return nullptr;
+}
+
+UAbilityComponent* AbilityBuilder::Build() {
+	//12345: remove
+	return nullptr;
+}
+
+AbilityBuilder& AbilityBuilder::AddEvent(const FString& eventName) {
+	TSharedRef<AbilityEvent> newEvent(new AbilityEvent);
+	mEventMap.Add(eventName, newEvent);
+
+	return *this;
+}
+
+AbilityBuilder& AbilityBuilder::AddInput(const FString& addTo, const FString& inputSource) {
+	if (mEventMap.Contains(addTo) && mEventMap.Contains(inputSource)) {
+		TSharedRef<AbilityEvent> second = mEventMap.FindRef(addTo),
+			first = mEventMap.FindRef(inputSource);
+
+		//preventing circular dependecies
+		if (!first->HasInput(second)) {
+			first->AddOutput(second);
+			second->AddInput(first);
+		}
+	}
+
+	return *this;
+}
+
+AbilityBuilder& AbilityBuilder::SetObjectClassType(const FString& setFor, UClass* classType) {
+	if (mEventMap.Contains(setFor)) {
+		mEventMap.FindRef(setFor)->SetObjectClassType(classType);
+	}
+
+	return *this;
+}
+
+UAbilityComponent* AbilityBuilder::getBoltAbility() {
+	ConstructorHelpers::FObjectFinder<UBlueprint> BoltProjectileBlueprint(TEXT("Blueprint'/Game/TopDownCPP/Blueprints/AbilityProjectiles/BoltAbilityProjectile.BoltAbilityProjectile'"));
+	
+	AbilityBuilder builder;
+	builder.AddEvent("cast_projectile")
+		.AddInput("cast_projectile", "root")
+		.SetObjectClassType("cast_projectile", BoltProjectileBlueprint.Object->GetBlueprintClass())
+		.AddEvent("aoe_explosion")
+		.AddInput("aoe_explosion", "cast_projectile");
+
+	//12345: change this
+	return nullptr;
+}
+
+void AbilityEvent::Fire() {
+}
+
+void AbilityEvent::AddInput(TSharedRef<AbilityEvent>& inputEvent) {
+	if (!HasInput(inputEvent)) mInputs.Add(inputEvent);
+}
+
+void AbilityEvent::AddOutput(TSharedRef<AbilityEvent>& outputEvent) {
+	if (!HasOutput(outputEvent)) mOutputs.Add(outputEvent);
+}
+
+void AbilityEvent::SetObjectClassType(UClass* objectClassType) {
+	mObjectClassType = objectClassType;
+}
+
+bool AbilityEvent::HasInput(const TSharedRef<AbilityEvent>& testValue) const {
+	return mInputs.Contains(testValue);
+}
+
+bool AbilityEvent::HasOutput(const TSharedRef<AbilityEvent>& testValue) const {
+	return mOutputs.Contains(testValue);
+}

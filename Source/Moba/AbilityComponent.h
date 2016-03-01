@@ -6,7 +6,74 @@
 #include "EffectComponent.h"
 #include "AbilityComponent.generated.h"
 
+class AbilityComponent;
+/*----- start rework -----*/
+//12345: need to sublcass for components and actors
+class AbilityEvent {
+private:
+	TArray<TSharedRef<AbilityEvent>> mInputs, mOutputs;
+	//
 
+	UClass* mObjectClassType;
+	//
+
+	AActor* mObject;
+	//the object (be it an actor or component) that gives a concrete representation of this event in the world
+
+
+public:
+	void Fire();
+	//what to do when 
+
+	void AddInput(TSharedRef<AbilityEvent>& inputEvent);
+	//adds inputEvent to mInputs
+
+	void AddOutput(TSharedRef<AbilityEvent>& outputEvent);
+	//adds outputEvent to mOutputs
+
+	void SetObjectClassType(UClass* objectClassType);
+	//
+
+	bool HasInput(const TSharedRef<AbilityEvent>& testValue) const;
+	//true if testValue is in mInputs
+
+	bool HasOutput(const TSharedRef<AbilityEvent>& testValue) const;
+	//true if testValue is in mOutputs
+};
+
+
+class AbilityBuilder
+{
+private:
+	TMap<FString, TSharedRef<AbilityEvent>> mEventMap;
+	//
+
+	static const FString ACTOR_BEGIN_OVERLAP;
+public:
+	AbilityBuilder();
+	//adds default root component
+
+	UAbilityComponent* Build();
+	//
+
+	static UAbilityComponent* BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank);
+	//
+
+	//
+	AbilityBuilder& AddEvent(const FString& eventName);
+	//adds a new AE to the map with key eventName
+
+	//12345: expand this to multiple callbacks
+	AbilityBuilder& AddInput(const FString& addTo, const FString& inputSource);
+	//adds input event to addTo. adds output event to inputSource
+
+	AbilityBuilder& SetObjectClassType(const FString& setFor, UClass* classType);
+	//
+
+	//12345: change return type to abilitycomponent
+	static UAbilityComponent* getBoltAbility();
+	//
+};
 
 //present to remove circular dependencies
 class Unit;
@@ -136,6 +203,13 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		FVector2D TargetLocation;
 
 	public:	
+		//12345: find a way to cut out this middle man function
+		UFUNCTION(BlueprintCallable, Category = "Ability Creation")
+		static UAbilityComponent* BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
+			return AbilityBuilder::BuildAbility(world, baseAbilityId, evolutionId, skillRank);
+		}
+		AbilityEvent* root;
+
 		//Value to be assigned to MaxRange variable if ability only affects caster
 		const static int32 RANGE_SELF;
 
