@@ -6,12 +6,20 @@
 #include "EffectComponent.h"
 #include "AbilityComponent.generated.h"
 
-class AbilityComponent;
+
+class UAbilityComponent;
+class AAbilityProjectile;
 /*----- start rework -----*/
 //12345: need to sublcass for components and actors
 class AbilityEvent {
 private:
+	UWorld* const GetWorld() const;
+	//
+
 	TArray<TSharedRef<AbilityEvent>> mInputs, mOutputs;
+	//
+
+	UAbilityComponent* mAssociatedAbility;
 	//
 
 	UClass* mObjectClassType;
@@ -22,8 +30,19 @@ private:
 
 
 public:
+	//12345: TSharedPtr required this. 
+	AbilityEvent() : mAssociatedAbility(nullptr) {}
+	AbilityEvent(UAbilityComponent *associatedAbility) : mAssociatedAbility(associatedAbility) {};
+	//
+
 	void Fire();
 	//what to do when 
+
+	void Broadcast(const FString& message);
+	//
+
+	void Receive(AbilityEvent *broadcaster, const FString& message);
+	//
 
 	void AddInput(TSharedRef<AbilityEvent>& inputEvent);
 	//adds inputEvent to mInputs
@@ -45,18 +64,24 @@ public:
 class AbilityBuilder
 {
 private:
+	UAbilityComponent *mAbility;
+	//
+
 	TMap<FString, TSharedRef<AbilityEvent>> mEventMap;
 	//
 
-	static const FString ACTOR_BEGIN_OVERLAP;
+
 public:
+	static const FString ACTOR_BEGIN_OVERLAP;
+	//
+
 	AbilityBuilder();
 	//adds default root component
 
 	UAbilityComponent* Build();
 	//
 
-	static UAbilityComponent* BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank);
+	static UAbilityComponent* BuildAbility(int32 baseAbilityId, int32 evolutionId, int32 skillRank);
 	//
 
 	//
@@ -68,10 +93,6 @@ public:
 	//adds input event to addTo. adds output event to inputSource
 
 	AbilityBuilder& SetObjectClassType(const FString& setFor, UClass* classType);
-	//
-
-	//12345: change return type to abilitycomponent
-	static UAbilityComponent* getBoltAbility();
 	//
 };
 
@@ -203,10 +224,12 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		FVector2D TargetLocation;
 
 	public:	
+		//12345: remove from public
+		static UClass *boltProjectileClass;
 		//12345: find a way to cut out this middle man function
 		UFUNCTION(BlueprintCallable, Category = "Ability Creation")
-		static UAbilityComponent* BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
-			return AbilityBuilder::BuildAbility(world, baseAbilityId, evolutionId, skillRank);
+		static UAbilityComponent* BuildAbility(int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
+			return AbilityBuilder::BuildAbility(baseAbilityId, evolutionId, skillRank);
 		}
 		AbilityEvent* root;
 

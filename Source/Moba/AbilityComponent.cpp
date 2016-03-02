@@ -9,7 +9,7 @@
 const int32
 	UAbilityComponent::RANGE_SELF = 0,
 	UAbilityComponent::RANGE_GLOBAL = -1;
-
+UClass* UAbilityComponent::boltProjectileClass = nullptr;
 
 
 /*
@@ -20,6 +20,9 @@ const int32
 // Sets default values for this component's properties
 UAbilityComponent::UAbilityComponent()
 {
+	//12345: do it cleaner
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BoltProjectileBlueprint(TEXT("Blueprint'/Game/TopDownCPP/Blueprints/AbilityProjectiles/BoltAbilityProjectile.BoltAbilityProjectile'"));
+	boltProjectileClass = BoltProjectileBlueprint.Object->GetBlueprintClass();
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	bWantsBeginPlay = true;
@@ -263,39 +266,34 @@ bool UAbilityComponent::IsTargetValid()
 	return bLocationValidTarget;
 }
 
-bool UAbilityComponent::IsTargetInRange() const
-{
-	UE_LOG(Abilities, Log, TEXT("Still have yet to make RANGE_SELF and RANGE_GLOBAL available in Blueprints."));
-
-	FVector2D CasterLocation = FVector2D(GetCaster()->GetActorLocation());
-
-	return 
-		MaxRange == RANGE_SELF ||
-		MaxRange == RANGE_GLOBAL ||
-		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
-}
-
 const FString AbilityBuilder::ACTOR_BEGIN_OVERLAP = "ACTOR_BEGIN_OVERLAP";
 
 AbilityBuilder::AbilityBuilder() {
-	TSharedRef<AbilityEvent> root(new AbilityEvent);
+	mAbility = new UAbilityComponent;
+	TSharedRef<AbilityEvent> root(new AbilityEvent(mAbility));
 	mEventMap.Add("root", root);
 }
 
-UAbilityComponent* AbilityBuilder::BuildAbility(UWorld * const world, int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
-	//12345: remove
-	return nullptr;
+UAbilityComponent* AbilityBuilder::BuildAbility(int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
+	//12345: currently only builds bolt ability
+	AbilityBuilder builder;
+	builder.AddEvent("cast_projectile")
+		.AddInput("cast_projectile", "root")
+		.SetObjectClassType("cast_projectile", UAbilityComponent::boltProjectileClass)
+		.AddEvent("aoe_explosion")
+		.AddInput("aoe_explosion", "cast_projectile");
+
+	return builder.Build();
 }
 
 UAbilityComponent* AbilityBuilder::Build() {
-	//12345: remove
-	return nullptr;
+	mAbility->root = &mEventMap.Find("root")->Get();
+	return mAbility;
 }
 
 AbilityBuilder& AbilityBuilder::AddEvent(const FString& eventName) {
-	TSharedRef<AbilityEvent> newEvent(new AbilityEvent);
+	TSharedRef<AbilityEvent> newEvent(new AbilityEvent(mAbility));
 	mEventMap.Add(eventName, newEvent);
-
 	return *this;
 }
 
@@ -322,21 +320,34 @@ AbilityBuilder& AbilityBuilder::SetObjectClassType(const FString& setFor, UClass
 	return *this;
 }
 
-UAbilityComponent* AbilityBuilder::getBoltAbility() {
-	ConstructorHelpers::FObjectFinder<UBlueprint> BoltProjectileBlueprint(TEXT("Blueprint'/Game/TopDownCPP/Blueprints/AbilityProjectiles/BoltAbilityProjectile.BoltAbilityProjectile'"));
-	
-	AbilityBuilder builder;
-	builder.AddEvent("cast_projectile")
-		.AddInput("cast_projectile", "root")
-		.SetObjectClassType("cast_projectile", BoltProjectileBlueprint.Object->GetBlueprintClass())
-		.AddEvent("aoe_explosion")
-		.AddInput("aoe_explosion", "cast_projectile");
+bool UAbilityComponent::IsTargetInRange() const
+{
+	UE_LOG(Abilities, Log, TEXT("Still have yet to make RANGE_SELF and RANGE_GLOBAL available in Blueprints."));
 
-	//12345: change this
-	return nullptr;
+	FVector2D CasterLocation = FVector2D(GetCaster()->GetActorLocation());
+
+	return 
+		MaxRange == RANGE_SELF ||
+		MaxRange == RANGE_GLOBAL ||
+		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
 }
 
 void AbilityEvent::Fire() {
+	mObject = GetWorld()->SpawnActor(mObjectClassType);
+	//12345: place this is AbilityProjectile
+	mObject->OnActorBeginOverlap.AddDynamic((AAbilityProjectile*)mObject, &AAbilityProjectile::Overlapping);
+	((AAbilityProjectile*)mObject)->setAbilityEvent(this);
+}
+
+void AbilityEvent::Broadcast(const FString& message) {
+	for (int i = 0; i < mOutputs.Num(); i++)
+		mOutputs[i]->Receive(this, message);
+}
+
+void AbilityEvent::Receive(AbilityEvent* broadcaster, const FString& message) {
+	if (message == AbilityBuilder::ACTOR_BEGIN_OVERLAP) {
+		Fire();
+	}
 }
 
 void AbilityEvent::AddInput(TSharedRef<AbilityEvent>& inputEvent) {
@@ -344,11 +355,17 @@ void AbilityEvent::AddInput(TSharedRef<AbilityEvent>& inputEvent) {
 }
 
 void AbilityEvent::AddOutput(TSharedRef<AbilityEvent>& outputEvent) {
-	if (!HasOutput(outputEvent)) mOutputs.Add(outputEvent);
+	if (!HasOutput(outputEvent)) {
+		mOutputs.Add(outputEvent);
+	}
 }
 
 void AbilityEvent::SetObjectClassType(UClass* objectClassType) {
 	mObjectClassType = objectClassType;
+}
+
+UWorld* const AbilityEvent::GetWorld() const {
+	return mAssociatedAbility->GetOwner()->GetWorld();
 }
 
 bool AbilityEvent::HasInput(const TSharedRef<AbilityEvent>& testValue) const {
