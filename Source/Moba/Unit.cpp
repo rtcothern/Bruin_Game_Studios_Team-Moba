@@ -33,9 +33,14 @@ void AUnit::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 
 }
 
+void AUnit::AddAbility(UAbilityComponent* ability) {
+	AddInstanceComponent(ability);
+}
+
 void AUnit::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
 {
-	Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
-	Abilities[(int32)Key]->AttemptCast();
+	//12345: if everything wil lbe a skillshot, there's no need to reference the target actor
+	//TODO: add code
+	Abilities[(int)Key]->AttemptCast(TargetActor, TargetLocation);
 }
 

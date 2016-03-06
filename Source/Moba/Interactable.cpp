@@ -103,8 +103,7 @@ ERelationship AInteractable::GetRelationship(const AActor * const FirstActor, co
 }
 
 void AInteractable::CastBasic(AActor* TargetActor) {
-	BasicInteract->SetTarget(TargetActor, FVector2D::ZeroVector);
-	BasicInteract->AttemptCast();
+	//12345: TODO: add code
 }
 
 bool AInteractable::IsPlayer() const

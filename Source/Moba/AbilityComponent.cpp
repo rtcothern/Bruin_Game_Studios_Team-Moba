@@ -2,15 +2,10 @@
 
 #include "Moba.h"
 #include "AbilityProjectile.h"
-//#include "MobaCharacter.h"
 #include "Interactable.h"
 #include "AbilityComponent.h"
-
-const int32
-	UAbilityComponent::RANGE_SELF = 0,
-	UAbilityComponent::RANGE_GLOBAL = -1;
-UClass* UAbilityComponent::boltProjectileClass = nullptr;
-
+#include "AbilityAction.h"
+#include "AbilityBuilder.h"
 
 /*
 	----------
@@ -20,15 +15,10 @@ UClass* UAbilityComponent::boltProjectileClass = nullptr;
 // Sets default values for this component's properties
 UAbilityComponent::UAbilityComponent()
 {
-	//12345: do it cleaner
-	static ConstructorHelpers::FObjectFinder<UBlueprint> BoltProjectileBlueprint(TEXT("Blueprint'/Game/TopDownCPP/Blueprints/AbilityProjectiles/BoltAbilityProjectile.BoltAbilityProjectile'"));
-	boltProjectileClass = BoltProjectileBlueprint.Object->GetBlueprintClass();
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	bWantsBeginPlay = true;
 	PrimaryComponentTick.bCanEverTick = true;
-
-	Initialize();
 }
 
 
@@ -46,117 +36,10 @@ void UAbilityComponent::BeginPlay()
 void UAbilityComponent::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction )
 {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
-
-	UpdateRemainingCooldown(DeltaTime);
 }
 
-void UAbilityComponent::Initialize_Implementation()
-{
-	Name = TEXT("");
-	MaxRange = RANGE_SELF;
-	bHasProjectile = false;
-	AbilityProjectileClass = nullptr;
-	MaxCooldown = 0;
-	RemainingCooldown = 0;
-	SetTargetParameters();
-}
-
-bool UAbilityComponent::AreExtraConditionsMet_Implementation()
-{
-	return true;
-}
-
-/*
-	----------
-	Cooldown related functions
-	----------
-*/
-bool UAbilityComponent::IsOnCooldown() const
-{
-	return RemainingCooldown > 0;
-}
-
-void UAbilityComponent::UpdateRemainingCooldown(float DeltaTime)
-{
-	if((RemainingCooldown -= DeltaTime) < 0)
-	{
-		RemainingCooldown = 0;
-	}
-}
-
-void UAbilityComponent::ResetCooldown()
-{
-	RemainingCooldown = MaxCooldown;
-}
-
-/*
-	----------
-	Casting Related Functions
-	----------
-*/
-void UAbilityComponent::AttemptCast()
-{
-	if(!CanBeCast())
-	{
-		return;
-	}	
-
-		CastAbility();
-
-	if (bHasProjectile)
-	{
-		CastProjectile();
-	}
-
-	ResetCooldown();
-}
-
-bool UAbilityComponent::CanBeCast()
-{
-	if (IsOnCooldown() || !IsTargetValid() || !IsTargetInRange() || !AreExtraConditionsMet())
-	{
-		return false;
-	}
-
-	return true;
-}
-
-
-void UAbilityComponent::CastAbility_Implementation()
-{
-}
-
-void UAbilityComponent::CastProjectile()
-{
-	//calculating the to-be-spawned AbilityProjectile's spawn and destination locations
-	FVector
-		Start = GetCaster()->GetActorLocation(),
-		Destination;
-	FRotator Rotation = GetCaster()->GetActorRotation();
-	
-	//radian input!
-	float
-		Sin = FGenericPlatformMath::Sin(Rotation.Yaw / 180 * PI),
-		Cos = FGenericPlatformMath::Cos(Rotation.Yaw / 180 * PI);
-
-	Start.X += ProjectileRelativeSpawnLocation.X * Cos;
-	Start.Y += ProjectileRelativeSpawnLocation.Y * Sin;
-	Start.Z += ProjectileRelativeSpawnLocation.Z;
-
-	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
-	Projectile->SetSource(GetCaster());
-
-	if (bTargetedAbility)
-	{
-		Projectile->SetDestination(TargetActor);
-	}
-	else
-	{
-		Destination.X = Start.X - MaxRange * Cos;
-		Destination.Y = Start.Y + MaxRange * Sin;
-		Destination.Z = Start.Z;
-		Projectile->SetDestination(Destination);
-	}
+void UAbilityComponent::SetRoot(UAbilityAction* root) {
+	mRootAction = root;
 }
 
 AInteractable * UAbilityComponent::GetCaster() const
@@ -164,214 +47,7 @@ AInteractable * UAbilityComponent::GetCaster() const
 	return (AInteractable*)GetOwner();
 }
 
-/*
-	----------
-	Target related functions
-	----------
-*/
-void UAbilityComponent::SetTargetParameters(bool bTargeted, bool bPlayer, bool bCreep, bool bStructure, bool bLocation, bool bAlly, bool bEnemy, bool bNeutral)
-{
-	this->bTargetedAbility = bTargeted;
-	this->bPlayerValidTarget = bPlayer;
-	this->bCreepValidTarget = bCreep;
-	this->bStructureValidTarget = bStructure;
-	this->bLocationValidTarget = bLocation;
-	this->bAllyValidTarget = bAlly;
-	this->bEnemyValidTarget = bEnemy;
-	this->bNeutralValidTarget = bNeutral;
-}
-
-void UAbilityComponent::SetTarget(TWeakObjectPtr<AActor> DirectTarget, FVector2D Location)
-{
-	TargetActor = DirectTarget;
-	TargetLocation = Location;
-}
-
-bool UAbilityComponent::IsTargetValid()
-{
-	/*
-	This code directly checks if TargetActor is a valid target.
-	If the TargetActor does not qualify as a valid target
-	or if a TargetActor does not exist at the TargetedLocation,
-	this function will return true if the targeted location is considered a valid target.
-	Otherwise, this function will return false.
-
-	A Traget is valid iff:
-	(1) It is of proper type 
-	(2) It shares a proper relationship with the caster
-	(3) If either of these conditions fails, this funtion will return true if targeted locations are considered valid targets.
-
-	Control flow:
-	Do we care about having a Target?
-	Is the Target still there?
-	Is the Target of a type we are actually targeting?
-	Does the Target share a proper relationship with the Caster?
-	*/
-
-	//trivially return true if this Ability is not a targeted Ability
-	if (!bTargetedAbility)
-	{
-		return true;
-	}
-
-	/* If TargetActor doesn't point to a 'live' UObject (such as if no Actor exists at the TargetLocation),
-	it cannot possibly be a valid. This leaves only the possibility of a location being valid. */
-	if (!TargetActor.IsValid())
-	{
-		UE_LOG(Abilities, Warning, TEXT("AbilityComponent.cpp/IsTargetValid(): TargetActor does not exist/pointer is null."));
-		return bLocationValidTarget;
-	}
-
-	/*
-	Checking to see if TargetActor is of a type that is potentially targetable (a subclass of Interactable).
-	Whether a particular subclass of Interactable is an actual tragetable type is dependent on its associated boolean values.
-	All other types are automatically disqualified of validity.
-	*/
-
-	//if TargetClass is not a subclass of Interactable, it is automatically disqualified
-	const UClass *TargetClass = TargetActor.Get()->GetClass();
-	if (!TargetClass->IsChildOf(AInteractable::StaticClass()))
-	{
-		return bLocationValidTarget;
-	}
-
-	const AInteractable *TargetInteractable = (AInteractable*)TargetActor.Get();
-	const bool bPlayer = TargetInteractable->IsPlayer(),
-		bCreep = TargetInteractable->IsCreep(),
-		bStructure = TargetInteractable->IsStructure();
-
-	if(!(
-		(bPlayer && bPlayerValidTarget) ||
-		(bCreep && bCreepValidTarget) ||
-		(bStructure && bStructureValidTarget)
-		))
-	{
-		return bLocationValidTarget;
-	}
-
-	//If TargetActor shares a proper relationship with Caster, Target is concluded to be valid.
-	//If TargetActor is valid, audjusting TargetLocation to be exactly that of the TargetActor.
-	ERelationship Relationship = AInteractable::GetRelationship(GetCaster(), TargetActor.Get());
-	if (
-		(bAllyValidTarget && Relationship == ERelationship::Ally) ||
-		(bEnemyValidTarget && Relationship == ERelationship::Enemy) ||
-		(bNeutralValidTarget && Relationship == ERelationship::Neutral)
-		)
-	{
-		TargetLocation = FVector2D(TargetActor.Get()->GetActorLocation());
-		return true;
-	}
-	
-	//All direct checks have been made. If Target is still not of valid type, Location is the last result.
-	return bLocationValidTarget;
-}
-
-const FString AbilityBuilder::ACTOR_BEGIN_OVERLAP = "ACTOR_BEGIN_OVERLAP";
-
-AbilityBuilder::AbilityBuilder() {
-	mAbility = new UAbilityComponent;
-	TSharedRef<AbilityEvent> root(new AbilityEvent(mAbility));
-	mEventMap.Add("root", root);
-}
-
-UAbilityComponent* AbilityBuilder::BuildAbility(int32 baseAbilityId, int32 evolutionId, int32 skillRank) {
-	//12345: currently only builds bolt ability
-	AbilityBuilder builder;
-	builder.AddEvent("cast_projectile")
-		.AddInput("cast_projectile", "root")
-		.SetObjectClassType("cast_projectile", UAbilityComponent::boltProjectileClass)
-		.AddEvent("aoe_explosion")
-		.AddInput("aoe_explosion", "cast_projectile");
-
-	return builder.Build();
-}
-
-UAbilityComponent* AbilityBuilder::Build() {
-	mAbility->root = &mEventMap.Find("root")->Get();
-	return mAbility;
-}
-
-AbilityBuilder& AbilityBuilder::AddEvent(const FString& eventName) {
-	TSharedRef<AbilityEvent> newEvent(new AbilityEvent(mAbility));
-	mEventMap.Add(eventName, newEvent);
-	return *this;
-}
-
-AbilityBuilder& AbilityBuilder::AddInput(const FString& addTo, const FString& inputSource) {
-	if (mEventMap.Contains(addTo) && mEventMap.Contains(inputSource)) {
-		TSharedRef<AbilityEvent> second = mEventMap.FindRef(addTo),
-			first = mEventMap.FindRef(inputSource);
-
-		//preventing circular dependecies
-		if (!first->HasInput(second)) {
-			first->AddOutput(second);
-			second->AddInput(first);
-		}
-	}
-
-	return *this;
-}
-
-AbilityBuilder& AbilityBuilder::SetObjectClassType(const FString& setFor, UClass* classType) {
-	if (mEventMap.Contains(setFor)) {
-		mEventMap.FindRef(setFor)->SetObjectClassType(classType);
-	}
-
-	return *this;
-}
-
-bool UAbilityComponent::IsTargetInRange() const
-{
-	UE_LOG(Abilities, Log, TEXT("Still have yet to make RANGE_SELF and RANGE_GLOBAL available in Blueprints."));
-
-	FVector2D CasterLocation = FVector2D(GetCaster()->GetActorLocation());
-
-	return 
-		MaxRange == RANGE_SELF ||
-		MaxRange == RANGE_GLOBAL ||
-		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
-}
-
-void AbilityEvent::Fire() {
-	mObject = GetWorld()->SpawnActor(mObjectClassType);
-	//12345: place this is AbilityProjectile
-	mObject->OnActorBeginOverlap.AddDynamic((AAbilityProjectile*)mObject, &AAbilityProjectile::Overlapping);
-	((AAbilityProjectile*)mObject)->setAbilityEvent(this);
-}
-
-void AbilityEvent::Broadcast(const FString& message) {
-	for (int i = 0; i < mOutputs.Num(); i++)
-		mOutputs[i]->Receive(this, message);
-}
-
-void AbilityEvent::Receive(AbilityEvent* broadcaster, const FString& message) {
-	if (message == AbilityBuilder::ACTOR_BEGIN_OVERLAP) {
-		Fire();
-	}
-}
-
-void AbilityEvent::AddInput(TSharedRef<AbilityEvent>& inputEvent) {
-	if (!HasInput(inputEvent)) mInputs.Add(inputEvent);
-}
-
-void AbilityEvent::AddOutput(TSharedRef<AbilityEvent>& outputEvent) {
-	if (!HasOutput(outputEvent)) {
-		mOutputs.Add(outputEvent);
-	}
-}
-
-void AbilityEvent::SetObjectClassType(UClass* objectClassType) {
-	mObjectClassType = objectClassType;
-}
-
-UWorld* const AbilityEvent::GetWorld() const {
-	return mAssociatedAbility->GetOwner()->GetWorld();
-}
-
-bool AbilityEvent::HasInput(const TSharedRef<AbilityEvent>& testValue) const {
-	return mInputs.Contains(testValue);
-}
-
-bool AbilityEvent::HasOutput(const TSharedRef<AbilityEvent>& testValue) const {
-	return mOutputs.Contains(testValue);
+void UAbilityComponent::AttemptCast(TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation) {
+	//12345: return to validate
+	mRootAction->Start();
 }

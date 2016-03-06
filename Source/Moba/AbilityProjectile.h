@@ -53,10 +53,6 @@ public:
 	//
 	void SetSource(AInteractable *s);
 
-	//12345: test and hapahazardly thrown toegether
-	void Overlapping(AActor* otherActor) { assocEvent->Broadcast(AbilityBuilder::ACTOR_BEGIN_OVERLAP); };
-	AbilityEvent *assocEvent;
-	void setAbilityEvent(AbilityEvent *e) { assocEvent = e; }
 	/*
 	//
 	//UFUNCTION()

@@ -39,6 +39,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	//
+	void AddAbility(UAbilityComponent* ability);
+
+	//
 	//UFUNCTION()
 	void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation);
 };
