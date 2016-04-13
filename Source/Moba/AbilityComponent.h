@@ -76,6 +76,10 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		//Does this Ability spawn a projectile upon cast?
 		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Projectile")
 		bool bHasProjectile;
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Projectile")
+		float projectileSize;
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Projectile")
+		bool bProjectilePierces;
 
 		//The type of AbilityProjectile to be spawned upon successful cast
 		UPROPERTY(EditDefaultsOnly, Category = "Projectile")
@@ -135,6 +139,11 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "Target Selected")
 		FVector2D TargetLocation;
 
+		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO Data")
+			TArray<class UEvo*> evos;
+		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO Data")
+			class UEvo* activeEvo;
+
 	public:	
 		//Value to be assigned to MaxRange variable if ability only affects caster
 		const static int32 RANGE_SELF;
@@ -165,4 +174,9 @@ class MOBA_API UAbilityComponent : public UActorComponent
 
 		//
 		void SetTarget(TWeakObjectPtr<AActor> DirectTarget, FVector2D Location);
+
+		void SetProjectileSize(float f) { projectileSize = f; };
+		float GetProjectileSize() { return projectileSize; };
+
+		void SetProjectilePierces(bool b) { bProjectilePierces = b; };
 };
