@@ -13,11 +13,9 @@ class MOBA_API UBolt_AOE : public UEvo
 {
 	GENERATED_BODY()
 protected:
-	virtual void applySkill0();
-	virtual void applySkill1();
-	virtual void applySkill2();
-	virtual void applySkill3();
+	virtual void onEndTrigger() {};
 
 public:	
 	UBolt_AOE();
+	UBolt_AOE(UAbilityComponent* own);
 };

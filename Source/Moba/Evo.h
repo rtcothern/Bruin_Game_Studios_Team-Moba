@@ -14,36 +14,45 @@ class MOBA_API UEvo : public UObject
 {
 	GENERATED_BODY()
 protected:
+	
+	enum EEvoTrigger : uint8 {
+		EE_End UMETA(DisplayName = "On End")
+	};
 	typedef void (*SkillFunc)(UAbilityComponent*);
 	class EvoSkill {
 		FString Name;
 		FString Description;
 	public:
-		EvoSkill(FString n, FString d, SkillFunc onAc) {
+		EvoSkill(UEvo* oEv, FString n, FString d, SkillFunc onAc) {
 			Name = n;
 			Description = d;
 			onAcquire = onAc;
+			ownerEvo = oEv;
+			//4 being an arbitrary size for the moment, this will eventually be the number of triggers we can have
+			triggers.Init(nullptr, 4);
+		}
+
+		//Associates the behavior with the given trigger index in the trigger array
+		void setTriggerBehavior(EEvoTrigger t, SkillFunc behavior) {
+			triggers[t] = behavior;
+		}
+		void attemptExecuteTrigger(EEvoTrigger t) {
+			if (triggers[t] != nullptr)
+				triggers[t](ownerEvo->ownerAbility);
 		}
 		SkillFunc onAcquire;
+		TArray<SkillFunc> triggers;
+		UEvo *ownerEvo;
 	};
 	
-	UAbilityComponent* owner;
+	UAbilityComponent* ownerAbility;
 	int32 skillPoints;
 	TArray<EvoSkill*> EvoSkills;
 public:
-	//Constructor required by Unreal for compilation
-	UEvo() {
-		skillPoints = 0;
-		owner = nullptr;
-	}
-	UEvo(UAbilityComponent* own) {
-		skillPoints = 0;
-		owner = own;
-	}
-	virtual void applySkill0() {};
-	virtual void applySkill1() {};
-	virtual void applySkill2() {};
-	virtual void applySkill3() {};
 
-	virtual void execute();
+	//No args Constructor required by Unreal for compilation
+	UEvo();
+	UEvo(UAbilityComponent* own);
+	virtual void onEndTrigger();
+	void SkillUp(uint8 newRank);
 };

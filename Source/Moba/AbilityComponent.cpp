@@ -2,8 +2,8 @@
 
 #include "Moba.h"
 #include "AbilityProjectile.h"
-//#include "MobaCharacter.h"
 #include "Interactable.h"
+#include "Evo.h"
 #include "AbilityComponent.h"
 
 const int32
@@ -24,6 +24,8 @@ UAbilityComponent::UAbilityComponent()
 	// off to improve performance if you don't need them.
 	bWantsBeginPlay = true;
 	PrimaryComponentTick.bCanEverTick = true;
+	activeEvo = nullptr;
+	evos.Init(nullptr, 3);
 
 	Initialize();
 }
@@ -273,4 +275,12 @@ bool UAbilityComponent::IsTargetInRange() const
 		MaxRange == RANGE_SELF ||
 		MaxRange == RANGE_GLOBAL ||
 		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
+}
+
+void UAbilityComponent::onAbilityEnd() {
+	activeEvo->onEndTrigger();
+}
+
+void UAbilityComponent::skillUp(uint8 newRank) {
+	activeEvo->SkillUp(newRank);
 }

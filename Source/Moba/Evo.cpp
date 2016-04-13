@@ -3,15 +3,22 @@
 #include "Moba.h"
 #include "Evo.h"
 
-void UEvo::execute() {
-	switch (skillPoints) {
-	case 0:
-		applySkill0();
-	case 1:
-		applySkill1();
-	case 2: 
-		applySkill2();
-	case 3:
-		applySkill3();
-	}
+UEvo::UEvo() {
+	skillPoints = 0;
+	ownerAbility = nullptr;
 }
+UEvo::UEvo(UAbilityComponent* own) {
+	skillPoints = 0;
+	ownerAbility = own;
+}
+
+ void UEvo::onEndTrigger() {
+	 for (int i = 0; i < skillPoints; i++) {
+		 EvoSkills[i]->attemptExecuteTrigger(UEvo::EEvoTrigger::EE_End);
+	 }
+ };
+ void UEvo::SkillUp(uint8 newRank) { 
+	 if (newRank >= 0 && newRank <= 3)
+		 EvoSkills[newRank]->onAcquire(ownerAbility);
+	 skillPoints = newRank;
+ }

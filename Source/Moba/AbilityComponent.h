@@ -139,12 +139,16 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "Target Selected")
 		FVector2D TargetLocation;
 
-		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO Data")
+		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO")
 			TArray<class UEvo*> evos;
-		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO Data")
+		UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "EVO")
 			class UEvo* activeEvo;
-
+		UFUNCTION(BlueprintCallable, Category = "EVO")
+			void skillUp(uint8 newRank);
 	public:	
+		UFUNCTION(BlueprintCallable, Category = "Ability Information")
+			void onAbilityEnd();
+
 		//Value to be assigned to MaxRange variable if ability only affects caster
 		const static int32 RANGE_SELF;
 
