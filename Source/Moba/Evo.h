@@ -55,4 +55,5 @@ public:
 	UEvo(UAbilityComponent* own);
 	virtual void onEndTrigger();
 	void SkillUp(uint8 newRank);
+
 };
