@@ -4,11 +4,7 @@
 #include "Bolt_AOE.h"
 
 UBolt_AOE::UBolt_AOE() :Super() {
-
-}
-
-UBolt_AOE::UBolt_AOE(UAbilityComponent* own) : Super(own){
-	EvoSkill* skill0 = new EvoSkill(this, "AOE", 
+	EvoSkill* skill0 = new EvoSkill(this, "AOE",
 		"Bolt pierces instead of stopping on first target hit",
 		{ [](UAbilityComponent* owner) { owner->SetProjectilePierces(true); } });
 
@@ -25,4 +21,5 @@ UBolt_AOE::UBolt_AOE(UAbilityComponent* own) : Super(own){
 	EvoSkills.Add(skill2);
 	EvoSkills.Add(skill3);
 }
+
 

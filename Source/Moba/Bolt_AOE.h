@@ -17,5 +17,4 @@ protected:
 
 public:	
 	UBolt_AOE();
-	UBolt_AOE(UAbilityComponent* own);
 };

@@ -52,7 +52,6 @@ public:
 
 	//No args Constructor required by Unreal for compilation
 	UEvo();
-	UEvo(UAbilityComponent* own);
 	virtual void onEndTrigger();
 	void SkillUp(uint8 newRank);
 
