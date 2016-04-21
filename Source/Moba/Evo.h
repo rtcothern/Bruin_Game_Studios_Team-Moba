@@ -18,7 +18,7 @@ protected:
 	enum EEvoTrigger : uint8 {
 		EE_End UMETA(DisplayName = "On End")
 	};
-	typedef void (*SkillFunc)(UAbilityComponent*);
+	typedef void (*SkillFunc)(UObject*);
 	class EvoSkill {
 		FString Name;
 		FString Description;
@@ -36,9 +36,9 @@ protected:
 		void setTriggerBehavior(EEvoTrigger t, SkillFunc behavior) {
 			triggers[t] = behavior;
 		}
-		void attemptExecuteTrigger(EEvoTrigger t) {
+		void attemptExecuteTrigger(EEvoTrigger t, UObject* instigator) {
 			if (triggers[t] != nullptr)
-				triggers[t](ownerEvo->ownerAbility);
+				triggers[t](instigator);
 		}
 		SkillFunc onAcquire;
 		TArray<SkillFunc> triggers;
@@ -52,7 +52,7 @@ public:
 
 	//No args Constructor required by Unreal for compilation
 	UEvo();
-	virtual void onEndTrigger();
+	virtual void onEndTrigger(UObject* instigator);
 	void SkillUp(uint8 newRank);
 
 };

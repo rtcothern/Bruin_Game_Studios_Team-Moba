@@ -12,8 +12,6 @@ UCLASS()
 class MOBA_API UBolt_AOE : public UEvo
 {
 	GENERATED_BODY()
-protected:
-	virtual void onEndTrigger() {};
 
 public:	
 	UBolt_AOE();

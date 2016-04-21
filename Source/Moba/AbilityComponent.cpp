@@ -154,7 +154,7 @@ void UAbilityComponent::CastProjectile()
 		Destination.X = Start.X - MaxRange * Cos;
 		Destination.Y = Start.Y + MaxRange * Sin;
 		Destination.Z = Start.Z;
-		Projectile->SetDestination(Destination);
+		Projectile->SetDestination(Destination);// FVector(TargetLocation.X, TargetLocation.Y, 200));
 	}
 }
 
@@ -277,8 +277,8 @@ bool UAbilityComponent::IsTargetInRange() const
 		FVector2D::Distance(CasterLocation, TargetLocation) <= MaxRange;
 }
 
-void UAbilityComponent::onAbilityEnd() {
-	activeEvo->onEndTrigger();
+void UAbilityComponent::onAbilityEnd(UObject* instigator) {
+	activeEvo->onEndTrigger(instigator);
 }
 
 void UAbilityComponent::skillUp(uint8 newRank) {

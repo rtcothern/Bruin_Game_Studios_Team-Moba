@@ -7,9 +7,9 @@ UEvo::UEvo() {
 	skillPoints = 0;
 	ownerAbility = Cast<UAbilityComponent>(GetOuter());
 }
- void UEvo::onEndTrigger() {
-	 for (int i = 0; i < skillPoints; i++) {
-		 EvoSkills[i]->attemptExecuteTrigger(UEvo::EEvoTrigger::EE_End);
+ void UEvo::onEndTrigger(UObject* instigator) {
+	 for (int i = 0; i <= skillPoints; i++) {
+		 EvoSkills[i]->attemptExecuteTrigger(UEvo::EEvoTrigger::EE_End, instigator);
 	 }
  };
  void UEvo::SkillUp(uint8 newRank) { 
