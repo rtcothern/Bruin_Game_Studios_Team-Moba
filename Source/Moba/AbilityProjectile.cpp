@@ -61,3 +61,8 @@ void AAbilityProjectile::SetSource(AInteractable * s)
 {
 	Source = s;
 }
+
+void AAbilityProjectile::spawnAOE_Implementation() {
+	UE_LOG(LogTemp, Warning, TEXT("Spawning aoe at Location: %s"),
+		*this->GetActorLocation().ToString());
+}

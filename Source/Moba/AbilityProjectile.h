@@ -52,6 +52,10 @@ public:
 
 	//
 	void SetSource(AInteractable *s);
+
+	UFUNCTION(BlueprintNativeEvent, Category = "Projectile Actions")
+		void spawnAOE();
+
 	/*
 	//
 	//UFUNCTION()

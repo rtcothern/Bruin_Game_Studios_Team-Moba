@@ -147,7 +147,7 @@ class MOBA_API UAbilityComponent : public UActorComponent
 			void skillUp(uint8 newRank);
 	public:	
 		UFUNCTION(BlueprintCallable, Category = "Ability Information")
-			void onAbilityEnd();
+			void onAbilityEnd(UObject* instigator);
 
 		//Value to be assigned to MaxRange variable if ability only affects caster
 		const static int32 RANGE_SELF;
