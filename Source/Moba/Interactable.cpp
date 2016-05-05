@@ -57,7 +57,7 @@ float AInteractable::TakeDamage(float DamageAmount, FDamageEvent const & DamageE
 
 	if (RemainingHealth <= 0)
 	{
-
+		//TODO: Fire Blueprint respawn event
 	}
 
 	return RemainingHealth;
