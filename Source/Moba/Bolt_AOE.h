@@ -8,7 +8,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS()	
 class MOBA_API UBolt_AOE : public UEvo
 {
 	GENERATED_BODY()
