@@ -3,6 +3,8 @@
 #include "Moba.h"
 #include "MobaCharacter.h"
 
+float counter = 0.0; ///DEBUG PURPOSES ONLY
+
 AMobaCharacter::AMobaCharacter()
 {
 	// Set size for player capsule
@@ -45,4 +47,56 @@ void AMobaCharacter::acquireAbility(UClass * abilityType) {
 	Abilities[0] = pComponent;
 	UE_LOG(LogTemp, Log, TEXT("AbilityComponent.cpp/SetTarget(): %s"), *pComponent->GetClass()->GetName());
 
+}
+
+void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
+{
+	Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
+
+	bool success = Abilities[(int32)Key]->AttemptCast();
+	if (success) //if the ability was cast, the player uses mana
+		LoseMana(Abilities[(int32)Key]->GetManaCost());
+
+}
+
+// Called every frame
+void AMobaCharacter::Tick(float DeltaTime)
+{                                     
+	Super::Tick(DeltaTime);
+	RegenMana(DeltaTime);
+
+	///DEBUG PURPOSES ONLY
+	///Prints out to log an update on mana every second
+	counter += DeltaTime;
+	if (counter > 1)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Your character has %f mana."), RemainingMana);
+		counter = 0;
+	}
+	
+
+}
+
+float AMobaCharacter::LoseMana(float LoseManaAmount)
+{
+	RemainingMana -= LoseManaAmount;
+
+	if (RemainingMana < 0)
+		RemainingMana = 0;
+
+	return RemainingMana;
+}
+
+
+void AMobaCharacter::RegenMana(float RegenModifier) //Normally, RegenModifier will be DeltaTime
+{   //Make a more elegant solution?
+	if (RemainingMana < MaxMana)
+		RemainingMana += (ManaRegenRatePerSecond * RegenModifier); //Converts regen rate from mana per second to mana per DeltaTime
+	if (RemainingMana > MaxMana)
+		RemainingMana = MaxMana;
+}
+
+float AMobaCharacter::GetMana()
+{
+	return RemainingMana;
 }

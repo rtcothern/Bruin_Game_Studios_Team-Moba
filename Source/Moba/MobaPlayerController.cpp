@@ -101,8 +101,10 @@ void AMobaPlayerController::CastAbility1_Implementation()
 	AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
 	FHitResult Result;
 	GetHitResultUnderCursor(ECC_Visibility, true, Result);
-	Character->CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
-}
+	Character->AMobaCharacter::CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
+} //why do I need to be explicit with what version of CastAbility I'm calling?
+  //If the function is not virtual(castAbility, declared in unit.h), it works as expected
+  //If it is virtual, I need to include "AUnit::", or, in this case, "AMobaCharacter::"
 
 bool AMobaPlayerController::CastAbility1_Validate() {
 	return true;
