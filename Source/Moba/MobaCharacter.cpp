@@ -40,6 +40,16 @@ bool AMobaCharacter::IsPlayer() const
 	return true;
 }
 
+
+void AMobaCharacter::acquireAbility(UClass * abilityType) {
+	UAbilityComponent* pComponent = NewObject<UAbilityComponent>(this, abilityType);
+	pComponent->RegisterComponent();
+
+	Abilities[0] = pComponent;
+	UE_LOG(LogTemp, Log, TEXT("AbilityComponent.cpp/SetTarget(): %s"), *pComponent->GetClass()->GetName());
+
+}
+
 void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
 {
 	Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
