@@ -21,7 +21,7 @@ These conditions include but are not limited to:
 	* necessary world/enviornment conditions
 	* valid selected target
 */
-UCLASS(Blueprintable, BlueprintType, ClassGroup = "Abilities")
+UCLASS(Blueprintable, BlueprintType, meta=(BlueprintSpawnableComponent), ClassGroup = "Abilities")
 class MOBA_API UAbilityComponent : public UActorComponent
 {
 	GENERATED_BODY()

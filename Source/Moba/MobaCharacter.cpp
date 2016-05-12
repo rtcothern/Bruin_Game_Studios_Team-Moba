@@ -37,3 +37,12 @@ bool AMobaCharacter::IsPlayer() const
 {
 	return true;
 }
+
+void AMobaCharacter::acquireAbility(UClass * abilityType) {
+	UAbilityComponent* pComponent = NewObject<UAbilityComponent>(this, abilityType);
+	pComponent->RegisterComponent();
+
+	Abilities[0] = pComponent;
+	UE_LOG(LogTemp, Log, TEXT("AbilityComponent.cpp/SetTarget(): %s"), *pComponent->GetClass()->GetName());
+
+}

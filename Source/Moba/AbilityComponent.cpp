@@ -278,9 +278,11 @@ bool UAbilityComponent::IsTargetInRange() const
 }
 
 void UAbilityComponent::onAbilityEnd(UObject* instigator) {
-	activeEvo->onEndTrigger(instigator);
+	if(activeEvo)
+		activeEvo->onEndTrigger(instigator);
 }
 
 void UAbilityComponent::skillUp(uint8 newRank) {
-	activeEvo->SkillUp(newRank);
+	if (activeEvo)
+		activeEvo->SkillUp(newRank);
 }
