@@ -5,6 +5,7 @@
 #include "Interactable.h"
 #include "Evo.h"
 #include "AbilityComponent.h"
+#include "MobaCharacter.h"
 
 const int32
 	UAbilityComponent::RANGE_SELF = 0,
@@ -93,11 +94,12 @@ void UAbilityComponent::ResetCooldown()
 	Casting Related Functions
 	----------
 */
-void UAbilityComponent::AttemptCast()
+
+bool UAbilityComponent::AttemptCast()
 {
 	if(!CanBeCast())
 	{
-		return;
+		return false;
 	}	
 
 		CastAbility();
@@ -108,15 +110,33 @@ void UAbilityComponent::AttemptCast()
 	}
 
 	ResetCooldown();
+	return true;
 }
 
 bool UAbilityComponent::CanBeCast()
 {
+	//true if the ability was cast by a player character
+	bool isCharacter = this->GetCaster()->IsPlayer();
+
 	if (IsOnCooldown() || !IsTargetValid() || !IsTargetInRange() || !AreExtraConditionsMet())
 	{
+		if (isCharacter && IsOnCooldown()) //sends message to log if ability is on cooldown
+		{                                  //checking cooldown takes priorty over checking if the player has enough mana
+			UE_LOG(LogTemp, Warning, TEXT("Ability on cooldown!"));
+		}
 		return false;
 	}
 
+	//If the ability was cast by a player, see if the player has enough mana
+	if (isCharacter)
+	{
+		AMobaCharacter* PlayerCharacter = dynamic_cast<AMobaCharacter*>(this->GetCaster()); //cast to MobaCharacter so mana can be checked
+		if (PlayerCharacter->GetMana() < ManaCost)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("You don't have enough mana to cast that spell (Current Mana: %f)"), PlayerCharacter->GetMana());
+			return false;
+		}
+	}
 	return true;
 }
 
@@ -127,6 +147,9 @@ void UAbilityComponent::CastAbility_Implementation()
 
 void UAbilityComponent::CastProjectile()
 {
+	//Present for debug purposes
+	//UE_LOG(LogTemp, Warning, TEXT("Successfully cast!"));
+
 	//calculating the to-be-spawned AbilityProjectile's spawn and destination locations
 	FVector
 		Start = GetCaster()->GetActorLocation(),
