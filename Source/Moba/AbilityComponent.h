@@ -97,6 +97,10 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "Cooldown")
 		float RemainingCooldown;
 
+		//Mana cost of using this Ability
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Mana Cost")
+		float ManaCost;
+
 		/* NOTE: a 'potential valid target' is something targeted which has yet to be checked for validity */
 		//Does this Ability require a target in order to be cast?
 		//If false, all variables concerned with target validity are irrelevant.
@@ -165,7 +169,8 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
 		//Will only cast ability/projectile if CanBeCast() returns true
-		void AttemptCast();
+		//If cast occurs, returns true
+		bool AttemptCast(); ///Changed from void to bool
 
 		//Returns the Unit to which this component belongs to
 		UFUNCTION(BlueprintCallable, Category = "Ability Information")
@@ -183,4 +188,7 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		float GetProjectileSize() { return projectileSize; };
 
 		void SetProjectilePierces(bool b) { bProjectilePierces = b; };
+
+		//ManaCost Getter
+		float GetManaCost() { return ManaCost; };
 };

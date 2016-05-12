@@ -40,5 +40,5 @@ public:
 
 	//
 	//UFUNCTION()
-	void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation);
+	virtual void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation);
 };
