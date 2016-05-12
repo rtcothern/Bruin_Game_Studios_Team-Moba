@@ -64,7 +64,7 @@ protected:
 	int32 KillStreakWorth;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
-		int32 MoreTest;
+	int32 MoreTest;
 
 public:
 	
