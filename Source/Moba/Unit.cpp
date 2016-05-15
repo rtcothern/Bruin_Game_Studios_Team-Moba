@@ -15,6 +15,7 @@ AUnit::AUnit()
 // Called when the game starts or when spawned
 void AUnit::BeginPlay()
 {
+	Abilities.Init(0);
 	Super::BeginPlay();
 	
 }

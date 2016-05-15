@@ -44,18 +44,21 @@ void AMobaCharacter::acquireAbility(UClass * abilityType) {
 	UAbilityComponent* pComponent = NewObject<UAbilityComponent>(this, abilityType);
 	pComponent->RegisterComponent();
 
-	Abilities[0] = pComponent;
-	UE_LOG(LogTemp, Log, TEXT("AbilityComponent.cpp/SetTarget(): %s"), *pComponent->GetClass()->GetName());
+	//Abilities[(int32)EKeyToAbilityIndex::Q] = pComponent;
+	int index = Abilities.Add(pComponent);
+	UE_LOG(LogTemp, Log, TEXT("AbilityComponent.cpp/SetTarget(): %d"), index);
 
 }
 
 void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
 {
-	Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
+	if (Abilities.Num() > (int32)Key) {
+		Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
 
-	bool success = Abilities[(int32)Key]->AttemptCast();
-	if (success) //if the ability was cast, the player uses mana
-		LoseMana(Abilities[(int32)Key]->GetManaCost());
+		bool success = Abilities[(int32)Key]->AttemptCast();
+		if (success) //if the ability was cast, the player uses mana
+			LoseMana(Abilities[(int32)Key]->GetManaCost());
+	}
 
 }
 
