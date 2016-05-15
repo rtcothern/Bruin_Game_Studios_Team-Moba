@@ -40,6 +40,7 @@ bool AMobaCharacter::IsPlayer() const
 	return true;
 }
 
+
 void AMobaCharacter::acquireAbility(UClass * abilityType) {
 	UAbilityComponent* pComponent = NewObject<UAbilityComponent>(this, abilityType);
 	pComponent->RegisterComponent();

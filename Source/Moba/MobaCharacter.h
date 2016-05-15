@@ -48,6 +48,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
 		void acquireAbility(UClass * abilityType);
+
 	//
 	//UFUNCTION()
 	void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation) override;
