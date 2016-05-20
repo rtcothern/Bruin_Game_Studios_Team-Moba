@@ -66,8 +66,13 @@ class MOBA_API UAbilityComponent : public UActorComponent
 		void CastProjectile();
 
 		//Ability name
-		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Stats")
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Properties")
 		FName Name;
+		//Ability name
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Properties")
+		const UMaterial *Icon;
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Properties")
+		FString Description;
 
 		//The maximum distance this ability can travel
 		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Stats")
