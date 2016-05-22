@@ -17,6 +17,7 @@ AInteractable::AInteractable()
 // Called when the game starts or when spawned
 void AInteractable::BeginPlay()
 {
+	RemainingHealth = MaxHealth;
 	Super::BeginPlay();
 	
 }
