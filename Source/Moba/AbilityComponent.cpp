@@ -154,7 +154,6 @@ void UAbilityComponent::CastProjectile()
 	FVector
 		Start = GetCaster()->GetActorLocation() + ProjectileRelativeSpawnLocation;
 	FRotator Rotation = GetCaster()->GetActorRotation();
-	
 	//radian input!
 	/*float
 		Sin = FGenericPlatformMath::Sin(Rotation.Yaw / 180 * PI),
@@ -164,7 +163,9 @@ void UAbilityComponent::CastProjectile()
 	Start.Y += ProjectileRelativeSpawnLocation.Y * Sin;
 	Start.Z += ProjectileRelativeSpawnLocation.Z;*/
 
-	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
+	FRotator Rot = FRotationMatrix::MakeFromX(FVector(TargetLocation, 0) - Start).Rotator();
+
+	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rot));
 	Projectile->SetSource(GetCaster());
 
 	if (bTargetedAbility)

@@ -28,22 +28,24 @@ void AAbilityProjectile::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
-	MovementComponent->MoveUpdatedComponent(DeltaTime * Delta, FRotator::ZeroRotator, false);
+	//MovementComponent->MoveUpdatedComponent(DeltaTime * Delta, FRotator::ZeroRotator, false);
 }
 
 void AAbilityProjectile::SetDestination(FVector2D Dest)
 {
 	//Destination = Dest;
-	float Distance = FVector2D::Distance(
+	/*float Distance = FVector2D::Distance(
 		FVector2D(GetActorLocation()),
 		FVector2D(Dest)
 		);
 
 	float Time = Distance / Velocity;
 
-	Delta = FVector(Dest - (FVector2D)GetActorLocation(), 0);
+	Delta = FVector(Dest - FVector2D(GetActorLocation()), 0);
 	Delta.X /= Time;
-	Delta.Y /= Time;
+	Delta.Y /= Time;*/
+	SetVelocity(Velocity);
+	//MovementComponent->SetVelocityInLocalSpace(Delta);
 }
 
 void AAbilityProjectile::SetDestination(TWeakObjectPtr<AActor> destActor) {
