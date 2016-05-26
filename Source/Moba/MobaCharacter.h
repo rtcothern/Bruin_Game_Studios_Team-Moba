@@ -26,15 +26,15 @@ protected:
 		float MaxMana;
 
 	//The amount of mana this MobaCharacter currently has
-	//Temporary Implementation: Manually set this value to be the SAME VALUE as MaxMana in the BluePrints on Unreal
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "MobaCharacter Stats")
-	//DUPROPERTY(VisibleInstanceOnly, BlueprintReadWrite, Category = "MobaCharacter Stats") -- needed after proper implementation 
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite, Category = "MobaCharacter Stats")
 		float RemainingMana;
 
 	//The amount of mana to regenerate per second
 	//To-Do: Implement different regen rates when inside vs outside of combat
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "MobaCharacter Stats")
 		float ManaRegenRatePerSecond;
+
+	bool Dead = false; //is it a problem to call both the member variable and the member function "IsDead" and "IsDead()"?
 
 
 public:
@@ -66,6 +66,15 @@ public:
 	virtual float GetMana();
 
 	bool IsPlayer() const override final;
+
+	//Checks to see if the player is dead
+	bool IsDead();
+
+	//Kills the player, setting IsDead to true
+	void SetDead();
+
+	UFUNCTION(BlueprintNativeEvent)
+		void AttemptToGiveEnemyExperience();
 	
 };
 

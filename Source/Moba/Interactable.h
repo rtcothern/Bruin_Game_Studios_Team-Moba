@@ -46,7 +46,8 @@ protected:
 	//RemainingHealth = MaxHealth upon respawn
 	//This value should not change often nor outside of controlled situations (e.g. leveling up)...
 	//... it is therefore recommended Getter/setters be used to change its value rather than direct manipulation.
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable Stats")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 MaxHealth;
 
 	//The amount of health this Interactable currently has
@@ -65,6 +66,9 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 MoreTest;
+
+	UFUNCTION(BlueprintNativeEvent)
+	void DummyRespawn();
 
 public:
 	
