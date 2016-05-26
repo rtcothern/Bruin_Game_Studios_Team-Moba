@@ -17,11 +17,11 @@ protected:
 	UProjectileMovementComponent *MovementComponent;
 
 	//the location where the projectile will terminate
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
-	FVector Destination;
+	/*UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
+	FVector2D Destination;*/
 
 	//the speed in Units/second
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "")
 	float Velocity;
 
 	//The actual distance the projectile will move each second
@@ -42,7 +42,7 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	//
-	void SetDestination(FVector Dest);
+	void SetDestination(FVector2D Dest);
 
 	void SetDestination(TWeakObjectPtr<AActor> destActor);
 

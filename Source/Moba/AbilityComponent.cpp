@@ -152,18 +152,17 @@ void UAbilityComponent::CastProjectile()
 
 	//calculating the to-be-spawned AbilityProjectile's spawn and destination locations
 	FVector
-		Start = GetCaster()->GetActorLocation(),
-		Destination;
+		Start = GetCaster()->GetActorLocation() + ProjectileRelativeSpawnLocation;
 	FRotator Rotation = GetCaster()->GetActorRotation();
 	
 	//radian input!
-	float
+	/*float
 		Sin = FGenericPlatformMath::Sin(Rotation.Yaw / 180 * PI),
-		Cos = FGenericPlatformMath::Cos(Rotation.Yaw / 180 * PI);
+		Cos = FGenericPlatformMath::Cos(Rotation.Yaw / 180 * PI);*/
 
-	Start.X += ProjectileRelativeSpawnLocation.X * Cos;
+	/*Start.X += ProjectileRelativeSpawnLocation.X * Cos;
 	Start.Y += ProjectileRelativeSpawnLocation.Y * Sin;
-	Start.Z += ProjectileRelativeSpawnLocation.Z;
+	Start.Z += ProjectileRelativeSpawnLocation.Z;*/
 
 	AAbilityProjectile *Projectile = (AAbilityProjectile*)(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
 	Projectile->SetSource(GetCaster());
@@ -174,10 +173,11 @@ void UAbilityComponent::CastProjectile()
 	}
 	else
 	{
-		Destination.X = Start.X - MaxRange * Cos;
+		/*Destination.X = Start.X - MaxRange * Cos;
 		Destination.Y = Start.Y + MaxRange * Sin;
-		Destination.Z = Start.Z;
-		Projectile->SetDestination(Destination);// FVector(TargetLocation.X, TargetLocation.Y, 200));
+		Destination.Z = Start.Z;*/
+		//(GetWorld()->SpawnActor(AbilityProjectileClass, &Start, &Rotation));
+		Projectile->SetDestination(TargetLocation);// FVector(TargetLocation.X, TargetLocation.Y, 200));
 	}
 }
 

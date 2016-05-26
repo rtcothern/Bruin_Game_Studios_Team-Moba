@@ -39,6 +39,6 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	//
-	//UFUNCTION()
-	virtual void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation);
+	//UFUNCTION(BlueprintCallable, Category = "Abilities")
+	virtual void CastAbility(EKeyToAbilityIndex Key, AActor* TargetActor, FVector2D TargetLocation);
 };

@@ -51,7 +51,7 @@ void AMobaCharacter::acquireAbility(UClass * abilityType) {
 
 }
 
-void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
+void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, AActor* TargetActor, FVector2D TargetLocation)
 {
 	if (Abilities.Num() > (int32)Key) {
 		Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);

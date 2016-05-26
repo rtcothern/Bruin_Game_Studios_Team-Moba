@@ -31,18 +31,29 @@ void AAbilityProjectile::Tick( float DeltaTime )
 	MovementComponent->MoveUpdatedComponent(DeltaTime * Delta, FRotator::ZeroRotator, false);
 }
 
-void AAbilityProjectile::SetDestination(FVector Dest)
+void AAbilityProjectile::SetDestination(FVector2D Dest)
 {
-	Destination = Dest;
+	//Destination = Dest;
+	float Distance = FVector2D::Distance(
+		FVector2D(GetActorLocation()),
+		FVector2D(Dest)
+		);
+
+	float Time = Distance / Velocity;
+
+	Delta = FVector(Dest - (FVector2D)GetActorLocation(), 0);
+	Delta.X /= Time;
+	Delta.Y /= Time;
 }
 
 void AAbilityProjectile::SetDestination(TWeakObjectPtr<AActor> destActor) {
 	MovementComponent->HomingTargetComponent = destActor->GetRootComponent();
 }
 
+//Deprecated
 void AAbilityProjectile::SetVelocity(float InVelocity)
 {
-	Velocity = InVelocity;
+	/*Velocity = InVelocity;
 
 	float Distance = FVector2D::Distance(
 		FVector2D(GetActorLocation()),
@@ -54,7 +65,7 @@ void AAbilityProjectile::SetVelocity(float InVelocity)
 	Delta = Destination - GetActorLocation();
 	Delta.X /= Time;
 	Delta.Y /= Time;
-	Delta.Z = 0;
+	Delta.Z = 0;*/
 }
 
 void AAbilityProjectile::SetSource(AInteractable * s)

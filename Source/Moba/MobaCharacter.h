@@ -50,8 +50,8 @@ public:
 		void acquireAbility(UClass * abilityType);
 
 	//
-	//UFUNCTION()
-	void CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation) override;
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
+	void CastAbility(EKeyToAbilityIndex Key, AActor* TargetActor, FVector2D TargetLocation) override;
 
 	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;

@@ -34,7 +34,7 @@ void AUnit::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 
 }
 
-void AUnit::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> TargetActor, FVector2D TargetLocation)
+void AUnit::CastAbility(EKeyToAbilityIndex Key, AActor* TargetActor, FVector2D TargetLocation)
 {
 	Abilities[(int32)Key]->SetTarget(TargetActor, TargetLocation);
 	Abilities[(int32)Key]->AttemptCast();

@@ -33,7 +33,7 @@ void AMobaPlayerController::SetupInputComponent()
 
 	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AMobaPlayerController::OnSetDestinationPressed);
 	InputComponent->BindAction("SetDestination", IE_Released, this, &AMobaPlayerController::OnSetDestinationReleased);
-	InputComponent->BindAction("CastAbility1", IE_Pressed, this, &AMobaPlayerController::CastAbility1);
+	InputComponent->BindAction("CastAbility1", IE_Released, this, &AMobaPlayerController::CastAbility1);
 
 	// support touch devices 
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AMobaPlayerController::MoveToTouchLocation);
@@ -98,10 +98,10 @@ void AMobaPlayerController::OnSetDestinationReleased()
 
 void AMobaPlayerController::CastAbility1_Implementation()
 {
-	AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
+	/*AMobaCharacter *Character = (AMobaCharacter*)(PlayerAIController->GetCharacter());
 	FHitResult Result;
-	GetHitResultUnderCursor(ECC_Visibility, true, Result);
-	Character->AMobaCharacter::CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));
+	GetHitResultUnderCursor(ECC_Visibility, false, Result);
+	Character->AMobaCharacter::CastAbility(EKeyToAbilityIndex::Q, Result.Actor, FVector2D(Result.Location));*/
 } //why do I need to be explicit with what version of CastAbility I'm calling?
   //If the function is not virtual(castAbility, declared in unit.h), it works as expected
   //If it is virtual, I need to include "AUnit::", or, in this case, "AMobaCharacter::"
