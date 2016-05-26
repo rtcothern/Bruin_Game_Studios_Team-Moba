@@ -67,6 +67,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 MoreTest;
 
+	UFUNCTION(BlueprintNativeEvent)
+	void DummyRespawn();
+
 public:
 	
 

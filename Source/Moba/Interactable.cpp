@@ -58,6 +58,7 @@ float AInteractable::TakeDamage(float DamageAmount, FDamageEvent const & DamageE
 
 	if (RemainingHealth <= 0)
 	{
+		DummyRespawn();
 		//TODO: Fire Blueprint respawn event
 	}
 
@@ -121,4 +122,7 @@ bool AInteractable::IsCreep() const
 bool AInteractable::IsStructure() const
 {
 	return false;
+}
+
+void AInteractable::DummyRespawn_Implementation() {
 }
