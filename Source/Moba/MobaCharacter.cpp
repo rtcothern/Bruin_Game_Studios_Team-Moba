@@ -65,7 +65,11 @@ void AMobaCharacter::CastAbility(EKeyToAbilityIndex Key, TWeakObjectPtr<AActor> 
 
 // Called every frame
 void AMobaCharacter::Tick(float DeltaTime)
-{                                     
+{
+	////To-Do: Change what happens during a tick if the player is dead
+	//if (Dead)
+	//	; //do something else
+
 	Super::Tick(DeltaTime);
 	RegenMana(DeltaTime);
 
@@ -103,4 +107,22 @@ void AMobaCharacter::RegenMana(float RegenModifier) //Normally, RegenModifier wi
 float AMobaCharacter::GetMana()
 {
 	return RemainingMana;
+}
+
+bool AMobaCharacter::IsDead()
+{
+	return Dead;
+}
+
+void AMobaCharacter::SetDead()
+{
+	Dead = true; //to be changed back to false through respawn mechcanic
+
+	//Check to see if any experience should be rewarded based on the character dying
+	AttemptToGiveEnemyExperience();
+}
+
+void AMobaCharacter::AttemptToGiveEnemyExperience_Implementation()
+{
+
 }
