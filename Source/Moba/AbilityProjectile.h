@@ -24,6 +24,12 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "")
 	float Velocity;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "")
+	float Time;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "")
+	bool bIsTargeted;
+
 	//The actual distance the projectile will move each second
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
 	FVector Delta;
@@ -42,7 +48,7 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	//
-	void SetDestination(FVector2D Dest);
+	void SetDestination(FVector2D Dest, float MaxRange);
 
 	void SetDestination(TWeakObjectPtr<AActor> destActor);
 

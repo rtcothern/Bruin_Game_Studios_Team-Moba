@@ -14,6 +14,9 @@ AAbilityProjectile::AAbilityProjectile()
 	MovementComponent->SetUpdatedComponent(RootComponent);
 	MovementComponent->SetPlaneConstraintEnabled(true);
 	MovementComponent->SetPlaneConstraintNormal(FVector(0.f, 0.f, 1.f));
+
+	bIsTargeted = false;
+	Time = 0;
 }
 
 // Called when the game starts or when spawned
@@ -26,30 +29,37 @@ void AAbilityProjectile::BeginPlay()
 // Called every frame
 void AAbilityProjectile::Tick( float DeltaTime )
 {
+	if (!bIsTargeted) {
+		Time -= DeltaTime;
+		if (Time < 0) {
+			Destroy();
+		}
+	}
 	Super::Tick( DeltaTime );
-
-	//MovementComponent->MoveUpdatedComponent(DeltaTime * Delta, FRotator::ZeroRotator, false);
 }
 
-void AAbilityProjectile::SetDestination(FVector2D Dest)
+void AAbilityProjectile::SetDestination(FVector2D Dest, float MaxRange)
 {
 	//Destination = Dest;
-	/*float Distance = FVector2D::Distance(
+	float Distance = FVector2D::Distance(
 		FVector2D(GetActorLocation()),
 		FVector2D(Dest)
 		);
+	Distance = Distance > MaxRange ? MaxRange : Distance;
+	Time = Distance / Velocity;
+	bIsTargeted = false;
 
-	float Time = Distance / Velocity;
 
-	Delta = FVector(Dest - FVector2D(GetActorLocation()), 0);
+	/*Delta = FVector(Dest - FVector2D(GetActorLocation()), 0);
 	Delta.X /= Time;
 	Delta.Y /= Time;*/
-	SetVelocity(Velocity);
+	//SetVelocity(Velocity);
 	//MovementComponent->SetVelocityInLocalSpace(Delta);
 }
 
 void AAbilityProjectile::SetDestination(TWeakObjectPtr<AActor> destActor) {
 	MovementComponent->HomingTargetComponent = destActor->GetRootComponent();
+	bIsTargeted = true;
 }
 
 //Deprecated
