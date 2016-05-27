@@ -35,12 +35,6 @@ AMobaCharacter::AMobaCharacter()
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 }
 
-bool AMobaCharacter::IsPlayer() const
-{
-	return true;
-}
-
-
 void AMobaCharacter::acquireAbility(UClass * abilityType) {
 	UAbilityComponent* pComponent = NewObject<UAbilityComponent>(this, abilityType);
 	pComponent->RegisterComponent();

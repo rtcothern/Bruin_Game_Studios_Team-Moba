@@ -13,7 +13,6 @@ class MOBA_API ACreep : public AUnit
 {
 	GENERATED_BODY()
 	
-	
-	
+	bool IsCreep() const override final { return true; };
 	
 };

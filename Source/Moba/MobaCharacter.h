@@ -65,7 +65,7 @@ public:
 	//Return the RemainingMana that a palyer has
 	virtual float GetMana();
 
-	bool IsPlayer() const override final;
+	bool IsPlayer() const override final { return true; };
 
 	//Checks to see if the player is dead
 	bool IsDead();

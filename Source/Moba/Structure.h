@@ -27,4 +27,6 @@ public:
 		float InteractionRange;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Structure Stats")
 		float Test;
+
+	bool IsStructure() const override final { return true; };
 };
