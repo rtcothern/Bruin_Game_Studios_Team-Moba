@@ -25,6 +25,11 @@ protected:
 	//
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite)
 	TArray<UAbilityComponent*> Abilities;
+
+	//client-side function to be overloaded in blueprint so that it can call serverside respawn function
+	UFUNCTION(BlueprintNativeEvent, Category = "Death")
+	void RespawnCaller();
+
 public:
 	// Sets default values for this character's properties
 	AUnit();
