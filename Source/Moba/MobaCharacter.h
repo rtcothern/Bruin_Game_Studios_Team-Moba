@@ -64,7 +64,7 @@ public:
 
 	bool IsPlayer() const override final { return true; };
 
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Experience")
 	void AttemptToGiveEnemyExperience();
 };
 
