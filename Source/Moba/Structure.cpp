@@ -8,7 +8,7 @@ AStructure::AStructure() {
 
 // Called when the game starts or when spawned
 void AStructure::BeginPlay() {
-
+	Super::BeginPlay();
 }
 
 // Called every frame

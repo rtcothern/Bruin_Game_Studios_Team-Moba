@@ -40,3 +40,5 @@ void AUnit::CastAbility(EKeyToAbilityIndex Key, AActor* TargetActor, FVector2D T
 	Abilities[(int32)Key]->AttemptCast();
 }
 
+void AUnit::RespawnCaller_Implementation() {
+}

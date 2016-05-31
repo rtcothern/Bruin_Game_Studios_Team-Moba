@@ -103,19 +103,6 @@ float AMobaCharacter::GetMana()
 	return RemainingMana;
 }
 
-bool AMobaCharacter::IsDead()
-{
-	return Dead;
-}
-
-void AMobaCharacter::SetDead()
-{
-	Dead = true; //to be changed back to false through respawn mechcanic
-
-	//Check to see if any experience should be rewarded based on the character dying
-	AttemptToGiveEnemyExperience();
-}
-
 void AMobaCharacter::AttemptToGiveEnemyExperience_Implementation()
 {
 

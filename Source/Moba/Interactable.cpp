@@ -9,6 +9,7 @@
 // Sets default values
 AInteractable::AInteractable()
 {
+	bDead = false;
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -54,12 +55,16 @@ bool AInteractable::ApplyEffect(UClass* EffectClassType)
 
 float AInteractable::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
 {
+	//this is to prevent damage from continually being applied even after death
+	if (IsDead()) return 0;
+
 	RemainingHealth -= DamageAmount;
 
 	if (RemainingHealth <= 0)
 	{
-		DummyRespawn();
-		//TODO: Fire Blueprint respawn event
+		RemainingHealth = 0;
+		SetDead(true);
+		Die();
 	}
 
 	return RemainingHealth;
@@ -124,5 +129,14 @@ bool AInteractable::IsStructure() const
 	return false;
 }
 
-void AInteractable::DummyRespawn_Implementation() {
+bool AInteractable::IsDead() const {
+	return bDead;
+}
+
+void AInteractable::SetDead(bool dead) {
+	bDead = dead;
+}
+
+void AInteractable::Die_Implementation() {
+
 }

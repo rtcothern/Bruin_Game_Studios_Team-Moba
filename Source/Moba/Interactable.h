@@ -64,15 +64,18 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 KillStreakWorth;
 
+	//
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Interactable Stats")
 	int32 MoreTest;
 
-	UFUNCTION(BlueprintNativeEvent)
-	void DummyRespawn();
+	//current living/dead state of interactable
+	bool bDead;
+
+	//virtual function which handles what an Interactable does on death
+	UFUNCTION(BlueprintNativeEvent, Category = "Death")
+	void Die();
 
 public:
-	
-
 	// Sets default values for this character's properties
 	AInteractable();
 
@@ -90,7 +93,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Abilities and Effects")
 	bool ApplyEffect(UClass* EffectClassType);
 
-	//
+	//deducts passed DamageAmount from RemainingHealth if Interactable is not marked dead
+	//sets RemainingHealth to 0 on death
 	virtual float TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser);
 
 	//Is this interactable of type Player/MobaCharacter?
@@ -109,6 +113,15 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "")
 	static ERelationship GetRelationship(const AActor * const FirstActor, const AActor * const SecondActor);
 
+	//
 	UFUNCTION(BlueprintCallable, Category = "")
 	void CastBasic(AActor* TargetActor);
+
+	//returns bDead
+	UFUNCTION(BlueprintCallable, Category = "Death")
+	bool IsDead() const;
+
+	//sets bDead to passed value
+	UFUNCTION(BlueprintCallable, Category = "Death")
+	void SetDead(bool dead);
 };

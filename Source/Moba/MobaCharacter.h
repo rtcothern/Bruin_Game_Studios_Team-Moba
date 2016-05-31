@@ -23,19 +23,16 @@ protected:
 	//This value should not change often nor outside of controlled situations (e.g. leveling up)...
 	//... it is therefore recommended Getter/setters be used to change its value rather than direct manipulation.
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "MobaCharacter Stats")
-		float MaxMana;
+	float MaxMana;
 
 	//The amount of mana this MobaCharacter currently has
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite, Category = "MobaCharacter Stats")
-		float RemainingMana;
+	float RemainingMana;
 
 	//The amount of mana to regenerate per second
 	//To-Do: Implement different regen rates when inside vs outside of combat
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "MobaCharacter Stats")
-		float ManaRegenRatePerSecond;
-
-	bool Dead = false; //is it a problem to call both the member variable and the member function "IsDead" and "IsDead()"?
-
+	float ManaRegenRatePerSecond;
 
 public:
 	AMobaCharacter();
@@ -47,7 +44,7 @@ public:
 
 
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
-		void acquireAbility(UClass * abilityType);
+	void acquireAbility(UClass * abilityType);
 
 	//
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
@@ -67,14 +64,7 @@ public:
 
 	bool IsPlayer() const override final { return true; };
 
-	//Checks to see if the player is dead
-	bool IsDead();
-
-	//Kills the player, setting IsDead to true
-	void SetDead();
-
-	UFUNCTION(BlueprintNativeEvent)
-		void AttemptToGiveEnemyExperience();
-	
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Experience")
+	void AttemptToGiveEnemyExperience();
 };
 
